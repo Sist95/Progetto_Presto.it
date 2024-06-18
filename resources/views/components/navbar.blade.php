@@ -24,16 +24,16 @@
             event.preventDefault();
             getElementById('form-logout').submit();
             ">Log out</a></li>
-            <form id="form-logout" class="d-none" method="POST" action="/logout">
+            <form id="form-logout" class="d-none" method="POST" action="{{route('logout')}}">
               @csrf
             </form>
           </ul>
           @else
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Ospite</a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item d-flex align-items-center" href="/login">Accedi</a></li>
+            <li><a class="dropdown-item d-flex align-items-center" href="{{route('login')}}">Accedi</a></li>
             <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item d-flex align-items-center" href="/register">Registrati</a></li>
+            <li><a class="dropdown-item d-flex align-items-center" href="{{route('register')}}">Registrati</a></li>
           </ul>
           @endauth
           </li>
