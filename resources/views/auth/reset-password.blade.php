@@ -4,9 +4,9 @@
             <div class="col-12 text-center">
                 <h1 class="display-4 pt-5">Reset della password</h1>
                 @if(session('status'))
-                    <div class="mb-4 font-medium text-sm text-green-600">
-                        {{session('status')}}
-                    </div>
+                <div class="alert alert-success" role="alert">
+                    {{session('status')}}
+                </div>
                 @endif
             </div>
         </div>
