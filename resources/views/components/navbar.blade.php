@@ -37,7 +37,7 @@
           </ul>
           @endauth
           </li>
-          <form class="d-flex" role="search">
+          <form class="d-flex position-absolute bottom-2 end-0" role="search">
             <input class="form-control me-2" type="search" placeholder="Cerca" aria-label="Search">
             <button class="btn btn btn-outline-dark" type="submit">Cerca</button>
           </form>
