@@ -20,6 +20,8 @@
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="#">Dashboard</a></li>
             <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="{{route('create.article')}}">Inserisci annuncio</a></li>
+            <li><hr class="dropdown-divider"></li>
             <li><a class="dropdown-item" href="#" onclick="
             event.preventDefault();
             getElementById('form-logout').submit();
