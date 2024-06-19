@@ -29,12 +29,70 @@
 }
 
 body {
-    background-color: var(--white) ;
+    background-color: var(--white);
+    background-image: url("https://entail.mayple.com/en-assets/mayple/61c0411e36c193ade0eb878a_ecomm101mayple_b83c304cb52cc8053bcbbfbf8544bc7d_2000-1699776094800.jpg");
     font-family: "urbanist";
 }
 
-h1, h2, h3 {
-    font-family: "urbanist";
+.cardMorph {
+    width: 30vw;
+    height: 70vh;
+    transition: all 0.2s;
+    position: relative;
+    cursor: pointer;
+}
+  
+.cardMorph-inner {
+    /* width: inherit;
+    height: inherit; */
+    /* background: rgba(255,255,255,.05);
+    box-shadow: 0 0 10px rgba(0,0,0,0.25);
+    backdrop-filter: blur(10px);
+    border-radius: 8px; */
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+ 
+/* Transition forse un pò fastidiosa */
+
+/* .cardMorph:hover {
+    transform: scale(1.04) rotate(1deg);
+} */
+  
+.circle {
+    width: 100px;
+    height: 100px;
+    background: radial-gradient(#10E8CB, #81FCFA);
+    border-radius: 50%;
+    position: absolute;
+    animation: move-up6 2s ease-in infinite alternate-reverse;
+}
+  
+.circle:nth-child(1) {
+    top: -25px;
+    left: -25px;
+}
+  
+.circle:nth-child(2) {
+    bottom: -25px;
+    right: -25px;
+    animation-name: move-down1;
+}
+  
+@keyframes move-up6 {
+    to {
+      transform: translateY(-10px);
+    }
+}
+  
+@keyframes move-down1 {
+    to {
+      transform: translateY(10px);
+    }
 }
 
 

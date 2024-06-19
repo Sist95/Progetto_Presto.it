@@ -1,6 +1,8 @@
 <x-layout>
 
-    <div class="container mt-5">
+    <div class="container mt-5 cardMorph cardMorph-inner">
+    <div class="circle"></div>
+    <div class="circle"></div>
         <div class="row justify-content-center">
             <div class="col-12 text-center">
                 <h1 class="display-4 pt-5">Accedi</h1>
@@ -12,7 +14,7 @@
             </div>
         </div>
         <div class="row justify-content-center align-items-center">
-            <div class="col-12 col-md-6">
+            <div class="col-12">
                 <form method="POST" action="/login">
                     @csrf
                     <div class="mb-3">
@@ -37,7 +39,7 @@
                         </div>
                         <span><a href="{{route('password.request')}}">Password dimenticata?</a></span>
                     </div>
-                    <div class="d-flex justify-content-center">
+                    <div class="d-flex justify-content-center mt-5">
                         <button type="submit" class="btn btn-primary">Login</button>
                     </div>
                 </form>
