@@ -10,4 +10,4 @@ Route::get('/create/article', [ArticleController::class,'create'])->name('create
 
 Route::get('/article/index', [ArticleController::class,'index'])->name('article.index');
 
-
+Route::get('/show/article/{article}', [ArticleController::class, 'show'])->name('article.show');
