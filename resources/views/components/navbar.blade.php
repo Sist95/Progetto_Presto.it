@@ -16,6 +16,19 @@
           <a class="nav-link" href="{{route('article.index')}}">Annunci</a>
         </li>
         <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Categorie
+            </a>
+            <ul class="dropdown-menu">
+            @foreach ($categories as $category )
+                <li><a class="dropdown-item text-capitalize" href="">{{$category->name}}</a></li>
+                @if(!$loop->last)
+                <hr class="dropdown-divider">
+                @endif
+            @endforeach
+            </ul>
+          </li>
+        <li class="nav-item dropdown">
           @auth
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Ciao, {{auth()->user()->name}}
@@ -33,6 +46,7 @@
               @csrf
             </form>
           </ul>
+
           @else
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Ospite</a>
           <ul class="dropdown-menu">
