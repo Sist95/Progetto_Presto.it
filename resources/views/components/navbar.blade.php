@@ -13,7 +13,7 @@
           <a class="nav-link @if(Route::is('homepage')) active @endif" aria-current="page" href="{{route('homepage')}}">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Annunci</a>
+          <a class="nav-link" href="{{route('article.index')}}">Annunci</a>
         </li>
         <li class="nav-item dropdown">
           @auth

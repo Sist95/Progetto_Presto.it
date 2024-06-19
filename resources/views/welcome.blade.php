@@ -17,7 +17,7 @@
             </div>
         @empty
             <div class="col-12">
-                <h3 class="text-center">Non sono presenti articoli</h3>
+                <h3 class="text-center">Non sono ancora presenti annunci</h3>
             </div>
         @endforelse
         </div>
