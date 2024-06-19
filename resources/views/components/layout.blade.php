@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>{{env('APP_NAME')}}</title>
     @vite(['resources/css/app.css','resources/js/app.js'])
-</head>
+    <link href='http://fonts.googleapis.com/css?family=Urbanist' rel='stylesheet' type='text/css'></head>
 <body>
 
     <x-navbar/>

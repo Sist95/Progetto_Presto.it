@@ -1,5 +1,8 @@
 <nav class="navbar navbar-expand-lg primary-bg mb-2 shadow">
-  <div class="container-fluid">
+  <div class="container-fluid m-0">
+    <a class="navbar-brand" href="#">
+      <img src="\img\LogoPresto.jpg" alt="Logo" width="50vh" height="50vh">
+    </a>
     <a class="navbar-brand" href="/">{{env('APP_NAME')}}</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -40,8 +43,8 @@
           @endauth
           </li>
           <form class="d-flex position-absolute bottom-2 end-0" role="search">
-            <input class="form-control me-2" type="search" placeholder="Cerca" aria-label="Search">
-            <button class="btn btn btn-outline-dark" type="submit">Cerca</button>
+            <input class="form-control me-0" type="search" placeholder="Cerca" aria-label="Search">
+            <button class="btn btn btn-outline-dark m-1" type="submit">Cerca</button>
           </form>
       </ul>
     </div>
