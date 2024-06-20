@@ -58,7 +58,7 @@
           </li>
           <form class="d-flex position-absolute bottom-2 end-0" role="search">
             <input class="form-control me-0" type="search" placeholder="Cerca" aria-label="Search">
-            <button class="buttonCustom ms-1 me-3" type="submit">Cerca</button>
+            <button class="buttonCustomWarning ms-1 me-3" type="submit">Cerca</button>
           </form>
       </ul>
     </div>

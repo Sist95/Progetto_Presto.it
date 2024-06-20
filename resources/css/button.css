@@ -1,4 +1,123 @@
-.buttonCustom {
+.buttonCustomWarning {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background: linear-gradient(45deg, #F9CF7C, #E9A740);
+  box-shadow: 0 0 24px #ffb20861;
+  border: 2px solid #F9CF7C;
+  border-radius: 10px;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease,
+    text-shadow 0.3s ease;
+  padding: 10px 20px;
+  color: #09090b;
+  font-weight: bold;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Text drop shadow */
+}
+
+.buttonCustomPrimary {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background: linear-gradient(45deg, #F9CF7C, #E9A740);
+  box-shadow: 0 0 24px #ffb20861;
+  border: 2px solid #F9CF7C;
+  border-radius: 10px;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease,
+    text-shadow 0.3s ease;
+  padding: 10px 20px;
+  color: #09090b;
+  font-weight: bold;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Text drop shadow */
+}
+
+.buttonCustomSecondary {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background: linear-gradient(45deg, #F9CF7C, #E9A740);
+  box-shadow: 0 0 24px #ffb20861;
+  border: 2px solid #F9CF7C;
+  border-radius: 10px;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease,
+    text-shadow 0.3s ease;
+  padding: 10px 20px;
+  color: #09090b;
+  font-weight: bold;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Text drop shadow */
+}
+
+.buttonCustomSucces {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background: linear-gradient(45deg, #F9CF7C, #E9A740);
+  box-shadow: 0 0 24px #ffb20861;
+  border: 2px solid #F9CF7C;
+  border-radius: 10px;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease,
+    text-shadow 0.3s ease;
+  padding: 10px 20px;
+  color: #09090b;
+  font-weight: bold;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Text drop shadow */
+}
+
+.buttonCustomDanger {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background: linear-gradient(45deg, #F9CF7C, #E9A740);
+  box-shadow: 0 0 24px #ffb20861;
+  border: 2px solid #F9CF7C;
+  border-radius: 10px;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease,
+    text-shadow 0.3s ease;
+  padding: 10px 20px;
+  color: #09090b;
+  font-weight: bold;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Text drop shadow */
+}
+
+.buttonCustomInfo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background: linear-gradient(45deg, #F9CF7C, #E9A740);
+  box-shadow: 0 0 24px #ffb20861;
+  border: 2px solid #F9CF7C;
+  border-radius: 10px;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease,
+    text-shadow 0.3s ease;
+  padding: 10px 20px;
+  color: #09090b;
+  font-weight: bold;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Text drop shadow */
+}
+
+.buttonCustomLight {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background: linear-gradient(45deg, #F9CF7C, #E9A740);
+  box-shadow: 0 0 24px #ffb20861;
+  border: 2px solid #F9CF7C;
+  border-radius: 10px;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease,
+    text-shadow 0.3s ease;
+  padding: 10px 20px;
+  color: #09090b;
+  font-weight: bold;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Text drop shadow */
+}
+
+.buttonCustomDark {
   display: flex;
   align-items: center;
   justify-content: center;
