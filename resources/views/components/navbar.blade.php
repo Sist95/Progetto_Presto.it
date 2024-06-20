@@ -34,8 +34,8 @@
             Ciao, {{auth()->user()->name}}
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Dashboard</a></li>
-            <li><hr class="dropdown-divider"></li>
+            <!-- <li><a class="dropdown-item" href="#">Dashboard</a></li>
+            <li><hr class="dropdown-divider"></li> -->
             <li><a class="dropdown-item" href="{{route('create.article')}}">Inserisci annuncio</a></li>
             <li><hr class="dropdown-divider"></li>
             <li><a class="dropdown-item" href="#" onclick="
@@ -58,7 +58,7 @@
           </li>
           <form class="d-flex position-absolute bottom-2 end-0" role="search">
             <input class="form-control me-0" type="search" placeholder="Cerca" aria-label="Search">
-            <button class="button1 ms-1 me-3" type="submit">Cerca</button>
+            <button class="buttonCustom ms-1 me-3" type="submit">Cerca</button>
           </form>
       </ul>
     </div>
