@@ -4,7 +4,7 @@
     </div>
 @endif
 
-<form class="bg-body-tertiary shadow rounded p-5 my-5" wire:submit="store">
+<form class="shadow rounded p-5 my-5 cardMorph-inner" wire:submit="store">
 
     <div class="mb-3">
         <label for="title" class="form-label">Titolo</label>
