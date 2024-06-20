@@ -22,7 +22,7 @@
                         @enderror
                     </div>
                     <div class="d-flex justify-content-center mt-3">
-                        <button type="submit" class="btn btn-primary mb-4">Recupera</button>
+                        <button type="submit" class="button mb-4">Recupera</button>
                     </div>
                 </form>
             </div>
