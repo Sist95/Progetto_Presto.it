@@ -1,9 +1,8 @@
 <x-layout>
 
-    <div class="container mt-5  col-md-12 cardMorph cardMorph-inner">
-    
+    <div class="container mt-5 cardMorph cardMorph-inner">
         <div class="row justify-content-center">
-            <div class="col-12  text-center">
+            <div class="col-12 text-center">
                 <h1 class="display-4 pt-5">Accedi</h1>
                 @if(session('status'))
                 <div class="alert alert-success" role="alert">
