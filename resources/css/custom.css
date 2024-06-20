@@ -112,10 +112,18 @@ body {
 }
 @media screen and (min-width: 767.2px) and (max-width: 1159.2px) {
     .cardMorph {
-          width: 50vw;
-          height: 70vh; 
+          width: 60vw;
+          height: auto;
       }
   }
+
+/* Laptop grandi e schermi */
+@media screen and (min-width: 1160px), screen and (min-height: 1160px) {
+    .cardMorph {
+        width: 45vw;
+        height: auto;
+    }
+}
 
 
 
