@@ -38,7 +38,7 @@
                         <input type="password" class="form-control" name="password_confirmation">
                     </div>
                     <div class="d-flex justify-content-center mt-3">
-                        <button type="submit" class="button mb-4">Reset Password</button>
+                        <button type="submit" class="buttonCustomPrimary text-white mb-4">Reset Password</button>
                     </div>
                 </form>
             </div>

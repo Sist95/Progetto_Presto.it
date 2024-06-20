@@ -38,7 +38,7 @@
                         <span><a href="{{route('password.request')}}">Password dimenticata?</a></span>
                     </div>
                     <div class="d-flex justify-content-center mt-3">
-                        <button type="submit" class="btn btn-primary mb-4">Login</button>
+                        <button type="submit" class="buttonCustomPrimary text-white mb-4">Login</button>
                     </div>
                 </form>
             </div>

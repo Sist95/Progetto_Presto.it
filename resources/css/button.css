@@ -15,14 +15,20 @@
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Text drop shadow */
 }
 
+.buttonCustomWarning:hover {
+  background-color: #ffc75d;
+  box-shadow: 0 0 34px #ffb20861;
+  text-shadow: 0 0 4px #ffe825; /* Hover text shadow */
+  border-color: #E9A740;
+}
+
 .buttonCustomPrimary {
   display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  background: linear-gradient(45deg, #F9CF7C, #E9A740);
-  box-shadow: 0 0 24px #ffb20861;
-  border: 2px solid #F9CF7C;
+  background: linear-gradient(45deg, #3284ff, #0d6efd);
+  border: 2px solid #3284ff;
   border-radius: 10px;
   transition: background-color 0.3s ease, box-shadow 0.3s ease,
     text-shadow 0.3s ease;
@@ -32,13 +38,19 @@
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Text drop shadow */
 }
 
+.buttonCustomPrimary:hover {
+  background-color: #2f7ef4;
+  box-shadow: 0 0 12px #002a6a;
+  text-shadow: 0 0 4px #488ef8; /* Hover text shadow */
+  border-color: #0d6efd;
+}
+
 .buttonCustomSecondary {
   display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
   background: linear-gradient(45deg, #F9CF7C, #E9A740);
-  box-shadow: 0 0 24px #ffb20861;
   border: 2px solid #F9CF7C;
   border-radius: 10px;
   transition: background-color 0.3s ease, box-shadow 0.3s ease,
@@ -55,7 +67,6 @@
   justify-content: center;
   cursor: pointer;
   background: linear-gradient(45deg, #F9CF7C, #E9A740);
-  box-shadow: 0 0 24px #ffb20861;
   border: 2px solid #F9CF7C;
   border-radius: 10px;
   transition: background-color 0.3s ease, box-shadow 0.3s ease,
@@ -72,7 +83,6 @@
   justify-content: center;
   cursor: pointer;
   background: linear-gradient(45deg, #F9CF7C, #E9A740);
-  box-shadow: 0 0 24px #ffb20861;
   border: 2px solid #F9CF7C;
   border-radius: 10px;
   transition: background-color 0.3s ease, box-shadow 0.3s ease,
@@ -88,16 +98,22 @@
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  background: linear-gradient(45deg, #F9CF7C, #E9A740);
-  box-shadow: 0 0 24px #ffb20861;
-  border: 2px solid #F9CF7C;
+  background: linear-gradient(45deg, #3edfff, #0dcaf0);
+  border: 2px solid #02d5ff;
   border-radius: 10px;
   transition: background-color 0.3s ease, box-shadow 0.3s ease,
     text-shadow 0.3s ease;
   padding: 10px 20px;
-  color: #09090b;
+  color: white;
   font-weight: bold;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Text drop shadow */
+}
+
+.buttonCustomInfo:hover {
+  background-color: #31d2f2;
+  box-shadow: 0 0 12px #01819b;
+  text-shadow: 0 0 4px #33ddff; /* Hover text shadow */
+  border-color: #0dcaf0;
 }
 
 .buttonCustomLight {
@@ -106,7 +122,6 @@
   justify-content: center;
   cursor: pointer;
   background: linear-gradient(45deg, #F9CF7C, #E9A740);
-  box-shadow: 0 0 24px #ffb20861;
   border: 2px solid #F9CF7C;
   border-radius: 10px;
   transition: background-color 0.3s ease, box-shadow 0.3s ease,
@@ -123,7 +138,6 @@
   justify-content: center;
   cursor: pointer;
   background: linear-gradient(45deg, #F9CF7C, #E9A740);
-  box-shadow: 0 0 24px #ffb20861;
   border: 2px solid #F9CF7C;
   border-radius: 10px;
   transition: background-color 0.3s ease, box-shadow 0.3s ease,
@@ -132,11 +146,4 @@
   color: #09090b;
   font-weight: bold;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Text drop shadow */
-}
-
-.buttonCustomWarning:hover {
-  background-color: #ffc75d;
-  box-shadow: 0 0 34px #ffb20861;
-  text-shadow: 0 0 4px #ffe825; /* Hover text shadow */
-  border-color: #E9A740;
 }

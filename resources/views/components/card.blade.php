@@ -3,8 +3,8 @@
     <div class="card-body">{{Str::limit($article->title, 30)}}</h4>
         <h6 class="card-subtitle text-body-secondary">{{$article->price}}</h6>
         <div class="d-flex flex-column justify-content-evenly align-items-center mt-5">
-            <a href="{{route('article.show',compact('article'))}}" class="btn btn-primary">Mostra</a>
-            <a href="{{route('byCategory', ['category'=> $article->category->id])}}" class="btn btn-info mt-2">{{$article->category->name}}</a>
+            <a href="{{route('article.show',compact('article'))}}" class="buttonCustomPrimary text-white text-decoration-none">Mostra</a>
+            <a href="{{route('byCategory', ['category'=> $article->category->id])}}" class="buttonCustomInfo mt-2 text-decoration-none">{{$article->category->name}}</a>
         </div>
     </div>
 </div>
