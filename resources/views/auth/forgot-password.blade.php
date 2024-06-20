@@ -1,5 +1,5 @@
 <x-layout>
-    <div class="container mt-5">
+    <div class="container mt-5 cardMorph cardMorph-inner">
         <div class="row justify-content-center">
             <div class="col-12 text-center">
                 <h1 class="display-4 pt-5">Recupera la tua password</h1>
