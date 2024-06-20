@@ -35,8 +35,9 @@ body {
 }
 
 .cardMorph {
-    width: 30vw;
+    width: 80vw;
     height: 70vh;
+
     transition: all 0.2s;
     position: relative;
     cursor: pointer;
@@ -94,5 +95,31 @@ body {
       transform: translateY(10px);
     }
 }
+
+/* @media screen and (min-width: 320px) and (max-width: 766.4px) { 
+    .cardMorph {
+        width: 70vw;
+        height: 70vh; 
+    }
+} */
+
+@media screen and (min-width: 1160px) {
+    .cardMorph {
+        width: 40vw;
+        height: 70vh; 
+    }
+}
+@media screen and (min-width: 767.2px) and (max-width: 1159.2px) {
+    .cardMorph {
+          width: 50vw;
+          height: 70vh; 
+      }
+  }
+
+
+
+
+
+
 
 
