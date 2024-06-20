@@ -110,6 +110,9 @@ body {
         width: 45vw;
         height: auto;
     }
+    .carousel-custom{
+        width: 500px;
+    }
 }
 
 
