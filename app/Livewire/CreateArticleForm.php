@@ -9,17 +9,20 @@ use Illuminate\Support\Facades\Auth;
 
 class CreateArticleForm extends Component
 {
-
-    #[Validate('required|min:5')]
+    
+    #[Validate('required', message:"Il titolo è richiesto.")]
+    #[Validate('min:5', message:"Il titolo è troppo corto.")]
     public $title;
 
-    #[Validate('required|min:10')]
+    #[Validate('required', message:"La descrizione è richiesta.")]
+    #[Validate('min:10', message: "La descrizione è troppo corta.")]
     public $description;
 
-    #[Validate('required|numeric')]
+    #[Validate('required', message: "Il prezzo è richiesto.")]
+    #[Validate('numeric', message:"Il prezzo va separato con il punto.")]
     public $price;
 
-    #[Validate('required')]
+    #[Validate('required', message: "Selezionare almeno una categoria.")]
     public $category;
 
     public $article;
