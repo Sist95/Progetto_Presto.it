@@ -30,55 +30,33 @@
 
 body {
     background-color: var(--white);
-    background-image: url("https://img.freepik.com/free-vector/elegant-white-background-with-circles-shape-designs_1017-25780.jpg?w=1060&t=st=1718889044~exp=1718889644~hmac=47cf09161b3825c2bc5ca159927cc3de9aae0ab0165215e7bb267dcc94e2e0cb");
     background-size: contain;
+    background-image: url("https://img.freepik.com/free-vector/elegant-white-background-with-circles-shape-designs_1017-25780.jpg?w=1060&t=st=1718889044~exp=1718889644~hmac=47cf09161b3825c2bc5ca159927cc3de9aae0ab0165215e7bb267dcc94e2e0cb%22");
     font-family: "urbanist";
-}
-
-.navbarMorph-inner {
-    background: rgba(16, 232, 203, 0.5);
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(3px);
-    -webkit-backdrop-filter: blur(2.2px);
-    border: 1px solid rgba(16, 232, 203, 0.3);
-}
-
-.footerMorph-inner-up {
-    background: rgba(129, 252, 250, 0.5);
-    border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(3px);
-    -webkit-backdrop-filter: blur(2.2px);
-    border: 1px solid rgba(16, 232, 203, 0.3);
-}
-
-.footerMorph-inner-down {
-    background: rgba(16, 232, 203, 0.5);
-    border-bottom-right-radius: 16px;
-    border-bottom-left-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(3px);
-    -webkit-backdrop-filter: blur(2.2px);
-    border: 1px solid rgba(16, 232, 203, 0.3);
 }
 
 .cardMorph {
     width: 80vw;
     height: 70vh;
+
     transition: all 0.2s;
+    position: relative;
     cursor: pointer;
 }
   
 .cardMorph-inner {
     /* width: inherit;
     height: inherit; */
-
+    /* background: rgba(255,255,255,.05);
+    box-shadow: 0 0 10px rgba(0,0,0,0.25);
+    backdrop-filter: blur(10px);
+    border-radius: 8px; */
     background: rgba(255, 255, 255, 0.15);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(3px);
+    backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
-    border: 2px solid rgba(255, 255, 255, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.3);
 }
  
 /* Transition forse un pò fastidiosa */
@@ -87,16 +65,51 @@ body {
     transform: scale(1.04) rotate(1deg);
 } */
   
-
-/* Dispositivi mobili piccoli, medi e grandi */
-@media screen and (min-width: 320px) and (max-width: 766.4px) { 
-    .cardMorph {
-        width: 90vw;
-        height: auto; 
+.circle {
+    width: 100px;
+    height: 100px;
+    background: radial-gradient(#10E8CB, #81FCFA);
+    border-radius: 50%;
+    position: absolute;
+    animation: move-up6 2s ease-in infinite alternate-reverse;
+}
+  
+.circle:nth-child(1) {
+    top: -25px;
+    left: -25px;
+}
+  
+.circle:nth-child(2) {
+    bottom: -25px;
+    right: -25px;
+    animation-name: move-down1;
+}
+  
+@keyframes move-up6 {
+    to {
+      transform: translateY(-10px);
+    }
+}
+  
+@keyframes move-down1 {
+    to {
+      transform: translateY(10px);
     }
 }
 
-/* Tablet e laptop*/
+/* @media screen and (min-width: 320px) and (max-width: 766.4px) { 
+    .cardMorph {
+        width: 70vw;
+        height: 70vh; 
+    }
+} */
+
+@media screen and (min-width: 1160px) {
+    .cardMorph {
+        width: 40vw;
+        height: 70vh; 
+    }
+}
 @media screen and (min-width: 767.2px) and (max-width: 1159.2px) {
     .cardMorph {
           width: 60vw;
@@ -109,9 +122,6 @@ body {
     .cardMorph {
         width: 45vw;
         height: auto;
-    }
-    .carousel-custom{
-        width: 500px;
     }
 }
 

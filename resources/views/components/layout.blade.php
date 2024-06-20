@@ -16,5 +16,5 @@
     </div>
     
     <x-footer/>
-</body>s
+</body>
 </html>
