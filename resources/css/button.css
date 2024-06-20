@@ -134,7 +134,7 @@
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Text drop shadow */
 }
 
-.buttonCustom:hover {
+.buttonCustomWarning:hover {
   background-color: #ffc75d;
   box-shadow: 0 0 34px #ffb20861;
   text-shadow: 0 0 4px #ffe825; /* Hover text shadow */
