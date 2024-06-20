@@ -1,7 +1,7 @@
 
 <div class="container my-5">
     <!-- Footer -->
-    <footer class="text-center secondary-bg">
+    <footer class="text-center footerMorph-inner-up">
       <!-- Grid container -->
       <div class="container">
         <!-- Section: Links -->
@@ -95,7 +95,7 @@
       <!-- Grid container -->
   
       <!-- Copyright -->
-      <div class="text-center p-3 primary-bg">
+      <div class="text-center p-3 footerMorph-inner-down">
         © 2024 Copyright:
         <a class="text-black" href=""></a>
       </div>

@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg primary-bg mb-2 shadow">
+<nav class="navbar navbar-expand-lg primary-bg mb-2 shadow navbarMorph-inner">
   <div class="container-fluid m-0">
     <a class="navbar-brand" href="#">
       <img src="\img\LogoPresto.jpg" alt="Logo" width="50vh" height="50vh">

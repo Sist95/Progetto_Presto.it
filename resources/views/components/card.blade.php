@@ -1,4 +1,4 @@
-<div class="card mx-auto shadow text-center mb-3">
+<div class="card mx-auto shadow text-center mb-3 cardMorph-inner">
     <img src="https://picsum.photos/200" class="card-img-top" alt="Cover dell'articolo {{$article->title}}">
     <div class="card-body">{{Str::limit($article->title, 30)}}</h4>
         <h6 class="card-subtitle text-body-secondary">{{$article->price}}</h6>

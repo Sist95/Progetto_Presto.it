@@ -2,7 +2,7 @@
     <div class="container mt-5 cardMorph cardMorph-inner">
         <div class="row justify-content-center">
             <div class="col-12 text-center">
-                <h1 class="display-4 pt-5">Reset della password</h1>
+                <h1 class="display-4 mt-4">Reset della password</h1>
                 @if(session('status'))
                 <div class="alert alert-success" role="alert">
                     {{session('status')}}
@@ -37,8 +37,8 @@
                         <label class="form-label">Conferma password</label>
                         <input type="password" class="form-control" name="password_confirmation">
                     </div>
-                    <div class="d-flex justify-content-center">
-                        <button type="submit" class="btn btn-primary">Reset Password</button>
+                    <div class="d-flex justify-content-center mt-3">
+                        <button type="submit" class="btn btn-primary mb-4">Reset Password</button>
                     </div>
                 </form>
             </div>
