@@ -30,7 +30,7 @@
                             <span>{{$message}}</span>
                         @enderror
                     </div>
-                    <div class="d-flex justify-content-between ">
+                    <div class="d-flex justify-content-between mt-3">
                         <div class="mb-3 form-check">
                             <input type="checkbox" class="form-check-input" name="remember">
                             <label class="form-check-label">Ricordati di me</label>
@@ -38,7 +38,7 @@
                         <span><a href="{{route('password.request')}}">Password dimenticata?</a></span>
                     </div>
                     <div class="d-flex justify-content-center mt-3">
-                        <button type="submit" class="buttonCustomPrimary text-white mb-4">Login</button>
+                        <button type="submit" class="buttonCustomPrimary mb-4">Login</button>
                     </div>
                 </form>
             </div>

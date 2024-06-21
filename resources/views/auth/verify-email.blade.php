@@ -16,7 +16,7 @@
                     @csrf
                    
                     <div class="d-flex justify-content-center mt-3">
-                        <button type="submit" class="buttonCustomPrimary text-white mb-4">Conferma</button>
+                        <button type="submit" class="buttonCustomPrimary mb-4">Conferma</button>
                     </div>
                 </form>
             </div>
