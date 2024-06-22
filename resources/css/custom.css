@@ -35,14 +35,21 @@ body {
     font-family: "urbanist";
 }
 
-/* .navbarMorph-inner {
+.navMorph-inner {
     background: rgba(16, 232, 203, 0.5);
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
     backdrop-filter: blur(3px);
     -webkit-backdrop-filter: blur(2.2px);
     border: 1px solid rgba(16, 232, 203, 0.3);
-} */
+}
+.scrollMorph-inner{
+    background: rgba(16, 232, 203, 0.7);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(2.2px);
+    border: 1px solid rgba(16, 232, 203, 0.3);
 
+}
 .footerMorph-inner-up {
     background: rgba(129, 252, 250, 0.5);
     border-radius: 16px;
