@@ -29,6 +29,7 @@
 }
 
 body {
+    margin-top: 20vh;
     background-color: var(--white);
     background-image: url("https://img.freepik.com/free-vector/elegant-white-background-with-circles-shape-designs_1017-25780.jpg?w=1060&t=st=1718889044~exp=1718889644~hmac=47cf09161b3825c2bc5ca159927cc3de9aae0ab0165215e7bb267dcc94e2e0cb");
     background-size: contain;
