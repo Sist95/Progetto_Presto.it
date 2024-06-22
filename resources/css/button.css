@@ -1,0 +1,194 @@
+.buttonCustomWarning {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background: linear-gradient(45deg, #F9CF7C, #E9A740);
+  box-shadow: 0 0 24px #ffb20861;
+  border: 2px solid #E9A740;
+  border-radius: 10px;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease,
+    text-shadow 0.3s ease;
+  padding: 10px 20px;
+  color: #09090b;
+  font-weight: bold;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Text drop shadow */
+}
+
+.buttonCustomWarning:hover {
+  background-color: #ffc75d;
+  box-shadow: 0 0 12px #bf7600;
+  text-shadow: 0 0 4px #ffe825; /* Hover text shadow */
+  border-color: #E9A740;
+}
+
+.buttonCustomPrimary {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background: linear-gradient(45deg, #3284ff, #0d6efd);
+  border: 2px solid #3284ff;
+  border-radius: 10px;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease,
+    text-shadow 0.3s ease;
+  padding: 10px 20px;
+  color: white;
+  font-weight: bold;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Text drop shadow */
+}
+
+.buttonCustomPrimary:hover {
+  background-color: #2f7ef4;
+  box-shadow: 0 0 12px #002a6a;
+  text-shadow: 0 0 4px #488ef8; /* Hover text shadow */
+  border-color: #0d6efd;
+}
+
+.buttonCustomSecondary {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background: linear-gradient(45deg, #858a8e, #6c757d);
+  border: 2px solid #858a8e;
+  border-radius: 10px;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease,
+    text-shadow 0.3s ease;
+  padding: 10px 20px;
+  color: white;
+  font-weight: bold;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Text drop shadow */
+}
+
+.buttonCustomSecondary:hover {
+  background-color: #808991;
+  box-shadow: 0 0 12px #586066;
+  text-shadow: 0 0 4px #9ea8b1; /* Hover text shadow */
+  border-color: #6c757d;
+}
+
+.buttonCustomSuccess {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background: linear-gradient(45deg, #379569, #198754);
+  border: 2px solid #198754;
+  border-radius: 10px;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease,
+    text-shadow 0.3s ease;
+  padding: 10px 20px;
+  color: white;
+  font-weight: bold;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Text drop shadow */
+}
+
+.buttonCustomSuccess:hover {
+  background-color: #49a178;
+  box-shadow: 0 0 12px #005930;
+  text-shadow: 0 0 4px #55bb8b; /* Hover text shadow */
+  border-color: #198754;
+}
+
+.buttonCustomDanger {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background: linear-gradient(45deg, #e14e5c, #dc3545);
+  border: 2px solid #dc3545;
+  border-radius: 10px;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease,
+    text-shadow 0.3s ease;
+  padding: 10px 20px;
+  color: white;
+  font-weight: bold;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Text drop shadow */
+}
+
+.buttonCustomDanger:hover {
+  background-color: #f43b4d;
+  box-shadow: 0 0 12px #841a24;
+  text-shadow: 0 0 4px #ff5465; /* Hover text shadow */
+  border-color: #dc3545;
+}
+
+.buttonCustomInfo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background: linear-gradient(45deg, #3edfff, #0dcaf0);
+  border: 2px solid #02d5ff;
+  border-radius: 10px;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease,
+    text-shadow 0.3s ease;
+  padding: 10px 20px;
+  color: white;
+  font-weight: bold;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Text drop shadow */
+}
+
+.buttonCustomInfo:hover {
+  background-color: #31d2f2;
+  box-shadow: 0 0 12px #01819b;
+  text-shadow: 0 0 4px #33ddff; /* Hover text shadow */
+  border-color: #0dcaf0;
+}
+
+.buttonCustomLight {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background: linear-gradient(45deg, #ffffff, #f8f9fa);
+  border: 2px solid #f8f9fa;
+  border-radius: 10px;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease,
+    text-shadow 0.3s ease;
+  padding: 10px 20px;
+  color: #09090b;
+  font-weight: bold;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Text drop shadow */
+}
+
+.buttonCustomLight:hover {
+  background-color: #c6c7c8;
+  box-shadow: 0 0 12px #686868;
+  text-shadow: 0 0 4px #f8f9fa; /* Hover text shadow */
+  border-color: #e6e6e7;
+}
+
+.buttonCustomDark {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background: linear-gradient(45deg, #292e33, #212529);
+  border: 2px solid #212529;
+  border-radius: 10px;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease,
+    text-shadow 0.3s ease;
+  padding: 10px 20px;
+  color: white;
+  font-weight: bold;
+  text-shadow: 2px 2px 5px rgba(153, 153, 153, 0.3); /* Text drop shadow */
+}
+
+.buttonCustomDark:hover {
+  background-color: #424649;
+  box-shadow: 0 0 12px #686868;
+  text-shadow: 0 0 4px #848484; /* Hover text shadow */
+  border-color: #373b3e;
+}
+
+.buttonCustomPrimary{
+  width: 50%;
+  height: 37px;
+}
+
+.buttonCustomInfo{
+  width: 50%;
+  height: 26px;
+}

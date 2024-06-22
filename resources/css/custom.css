@@ -8,7 +8,7 @@
     --primary: #10E8CB;
     --secondary: #81FCFA;
     --tertiary: #EBEFEF;
-    --accent: #E32740;
+    --accent: #E9A740;
     --white: #EEF5FF;
 }
 
@@ -29,12 +29,101 @@
 }
 
 body {
-    background-color: var(--white) ;
+    margin-top: 20vh;
+    background-color: var(--white);
+    background-image: url("/public/img/Sfondo.jpg");
+    background-size: contain;
     font-family: "urbanist";
 }
 
-h1, h2, h3 {
-    font-family: "urbanist";
+.navMorph-inner {
+    background: rgba(16, 232, 203, 0.5);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(2.2px);
+    border: 1px solid rgba(16, 232, 203, 0.3);
 }
+.scrollMorph-inner{
+    background: rgba(16, 232, 203, 0.7);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(2.2px);
+    border: 1px solid rgba(16, 232, 203, 0.3);
+
+}
+.footerMorph-inner-up {
+    background: rgba(129, 252, 250, 0.5);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(2.2px);
+    border: 1px solid rgba(16, 232, 203, 0.3);
+}
+
+.footerMorph-inner-down {
+    background: rgba(16, 232, 203, 0.5);
+    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(2.2px);
+    border: 1px solid rgba(16, 232, 203, 0.3);
+}
+
+.cardMorph {
+    width: 50%;
+    height: 70vh;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+  
+.cardMorph-inner {
+    width: 80%;
+    height: auto;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 2px solid rgba(255, 255, 255, 0.9);
+}
+ 
+/* Transition forse un pò fastidiosa */
+
+/* .cardMorph:hover {
+    transform: scale(1.04) rotate(1deg);
+} */
+  
+
+/* Dispositivi mobili piccoli, medi e grandi */
+@media screen and (min-width: 320px) and (max-width: 766.4px) { 
+    .cardMorph {
+        width: 90vw;
+        height: auto; 
+    }
+}
+
+/* Tablet e laptop*/
+@media screen and (min-width: 767.2px) and (max-width: 1159.2px) {
+    .cardMorph {
+          width: 60vw;
+          height: auto;
+      }
+  }
+
+/* Laptop grandi e schermi */
+@media screen and (min-width: 1160px), screen and (min-height: 1160px) {
+    .cardMorph {
+        width: 45vw;
+        height: auto;
+    }
+}
+
+
+
+
+
+
+
 
 

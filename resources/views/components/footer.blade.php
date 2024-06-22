@@ -1,7 +1,6 @@
 
 <div class="container my-5">
-    <!-- Footer -->
-    <footer class="text-center secondary-bg">
+    <footer class="text-center footerMorph-inner-up">
       <!-- Grid container -->
       <div class="container">
         <!-- Section: Links -->
@@ -9,43 +8,43 @@
           <!-- Grid row-->
           <div class="row text-center d-flex justify-content-center pt-5">
             <!-- Grid column -->
-            <div class="col-md-2">
+            <!-- <div class="col-md-2">
               <h6 class="text-uppercase font-weight-bold">
                 <a href="#!" class="text-black">About us</a>
               </h6>
-            </div>
+            </div> -->
             <!-- Grid column -->
   
             <!-- Grid column -->
-            <div class="col-md-2">
+            <!-- <div class="col-md-2">
               <h6 class="text-uppercase font-weight-bold">
                 <a href="#!" class="text-black">Products</a>
               </h6>
-            </div>
+            </div> -->
             <!-- Grid column -->
   
             <!-- Grid column -->
-            <div class="col-md-2">
+            <!-- <div class="col-md-2">
               <h6 class="text-uppercase font-weight-bold">
                 <a href="#!" class="text-black">Awards</a>
               </h6>
-            </div>
+            </div> -->
             <!-- Grid column -->
   
             <!-- Grid column -->
-            <div class="col-md-2">
+            <!-- <div class="col-md-2">
               <h6 class="text-uppercase font-weight-bold">
                 <a href="#!" class="text-black">Help</a>
               </h6>
-            </div>
+            </div> -->
             <!-- Grid column -->
   
             <!-- Grid column -->
-            <div class="col-md-2">
+            <!-- <div class="col-md-2">
               <h6 class="text-uppercase font-weight-bold">
                 <a href="#!" class="text-black">Contact</a>
               </h6>
-            </div>
+            </div> -->
             <!-- Grid column -->
           </div>
           <!-- Grid row-->
@@ -95,7 +94,7 @@
       <!-- Grid container -->
   
       <!-- Copyright -->
-      <div class="text-center p-3 primary-bg">
+      <div class="text-center p-3 footerMorph-inner-down">
         © 2024 Copyright:
         <a class="text-black" href=""></a>
       </div>

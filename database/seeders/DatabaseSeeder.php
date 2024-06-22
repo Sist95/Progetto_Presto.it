@@ -22,7 +22,7 @@ class DatabaseSeeder extends Seeder
         'Animali domestici',
         'Libri e riviste',
         'Accessori',
-        'Motori'
+        'Motori',
       ];
     /**
      * Seed the application's database.

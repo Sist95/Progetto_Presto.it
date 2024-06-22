@@ -4,7 +4,7 @@
     </div>
 @endif
 
-<form class="bg-body-tertiary shadow rounded p-5 my-5" wire:submit="store">
+<form class="shadow rounded p-5 my-5 cardMorph-inner" wire:submit="store">
 
     <div class="mb-3">
         <label for="title" class="form-label">Titolo</label>
@@ -42,7 +42,7 @@
         @enderror
     </div>
     <div class="d-flex justify-content-center">
-        <button type="submit" class="btn btn-primary">Crea</button>
+        <button type="submit" class="buttonCustomPrimary text-white">Crea</button>
     </div>
 
 </form>

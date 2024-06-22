@@ -3,9 +3,9 @@
         <div class="row vh-100 justify-content-center align-items-center">
             <div class="col-12">
                 <h1 class="display-1">{{env('APP_NAME')}}</h1>
-                <div class="my-3">
+                <div class="d-flex justify-content-center my-3">
                     @auth
-                        <a class="btn btn-primary" href="{{route('create.article')}}">Inserisci un annuncio</a>
+                        <a class="buttonCustomPrimary text-decoration-none" href="{{route('create.article')}}">Inserisci un annuncio</a>
                     @endauth
                 </div>
             </div>
