@@ -31,7 +31,7 @@
 body {
     margin-top: 20vh;
     background-color: var(--white);
-    background-image: url("https://img.freepik.com/free-vector/elegant-white-background-with-circles-shape-designs_1017-25780.jpg?w=1060&t=st=1718889044~exp=1718889644~hmac=47cf09161b3825c2bc5ca159927cc3de9aae0ab0165215e7bb267dcc94e2e0cb");
+    background-image: url("/public/img/Sfondo.jpg");
     background-size: contain;
     font-family: "urbanist";
 }
@@ -71,22 +71,21 @@ body {
 }
 
 .cardMorph {
-    width: 80vw;
+    width: 50%;
     height: 70vh;
     transition: all 0.2s;
     cursor: pointer;
 }
   
 .cardMorph-inner {
-    /* width: inherit;
-    height: inherit; */
-
+    width: 80%;
+    height: auto;
     background: rgba(255, 255, 255, 0.15);
     border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
     backdrop-filter: blur(3px);
     -webkit-backdrop-filter: blur(5px);
-    border: 2px solid rgba(255, 255, 255, 0.3);
+    border: 2px solid rgba(255, 255, 255, 0.9);
 }
  
 /* Transition forse un pò fastidiosa */

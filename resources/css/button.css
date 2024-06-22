@@ -182,3 +182,13 @@
   text-shadow: 0 0 4px #848484; /* Hover text shadow */
   border-color: #373b3e;
 }
+
+.buttonCustomPrimary{
+  width: 50%;
+  height: 37px;
+}
+
+.buttonCustomInfo{
+  width: 50%;
+  height: 26px;
+}
