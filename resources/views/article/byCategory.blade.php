@@ -7,14 +7,14 @@
             </div>
         </div>
         <div class="row justify-content-center align-items-center py-5">
-            @forelse($articles as $article) 
+            @forelse($articles as $article)
              <div class="col-12 col-md-3">
                 <x-card :article="$article"/>
              </div>
             @empty
             <div class="col-12 text-center">
                <h3>Non sono ancora stati creati annunci per questa categoria</h3>
-               @auth 
+               @auth
                 <a class="btn btn-dark my-5" href="{{route('create.article')}}">Pubblica un annuncio</a>
                 @endauth
             </div>
@@ -22,3 +22,5 @@
         </div>
      </div>
 </x-layout>
+
+
