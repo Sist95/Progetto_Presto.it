@@ -1,4 +1,4 @@
-<nav class="navbar fixed-top navbar-expand-lg primary-bg mb-2 navMorph-inner">
+<nav class="navbar fixed-top navbar-expand-lg mb-2 navMorph-inner">
   <div class="container-fluid m-0">
     <a class="navbar-brand" href="#">
       <img src="\img\LogoPresto.jpg" alt="Logo" width="50vh" height="50vh">
@@ -19,7 +19,7 @@
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Categorie
             </a>
-            <ul class="dropdown-menu  scrollMorph-inner">
+            <ul class="dropdown-menu scrollMorph-inner">
             @foreach ($categories as $category )
                 <li><a class="dropdown-item text-capitalize" href="{{route('byCategory', ['category'=>$category])}}">{{$category->name}}</a></li>
                 @if(!$loop->last)
