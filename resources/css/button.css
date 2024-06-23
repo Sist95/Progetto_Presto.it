@@ -114,6 +114,7 @@
   border-color: #dc3545;
 }
 
+
 .buttonCustomInfo {
   display: flex;
   align-items: center;
@@ -190,5 +191,5 @@
 
 .buttonCustomInfo{
   width: 50%;
-  height: 26px;
+  height: 50px;
 }
