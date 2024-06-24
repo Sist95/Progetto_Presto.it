@@ -1,4 +1,9 @@
 <x-layout>
+        @if(session()->has('errorMessage'))
+            <div class="alert alert-danger text-center shadow rounded w-50" role="alert">
+                {{session('errorMessage')}}
+            </div>
+        @endif 
     <div class="container-fluid text-center">
         <div class="row vh-100 justify-content-center align-items-center">
             <div class="col-12">
