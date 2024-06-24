@@ -38,6 +38,14 @@
             <li><hr class="dropdown-divider"></li> -->
             <li><a class="dropdown-item" href="{{route('create.article')}}">Inserisci annuncio</a></li>
             <li><hr class="dropdown-divider"></li>
+            @if(Auth::user()->is_revisor)
+            <li><a class="dropdown-item" href="{{route('revisor.index')}}">Area revisore</a></li>
+            <span 
+                class="position-absolute top-2 start-100 translate-middle badge rounded-pill bg-danger">
+                {{\App\Models\Article::toBeRevisedCount()}}
+            </span>
+            <li><hr class="dropdown-divider"></li>
+            @endif
             <li><a class="dropdown-item" href="#" onclick="
             event.preventDefault();
             getElementById('form-logout').submit();
