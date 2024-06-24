@@ -40,11 +40,11 @@
             <!-- Grid column -->
   
             <!-- Grid column -->
-            <!-- <div class="col-md-2">
+             <div class="col-md-2">
               <h6 class="text-uppercase font-weight-bold">
-                <a href="#!" class="text-black">Contact</a>
+                <a href="{{route('become.revisor')}}" class="text-black">Diventa revisore</a>
               </h6>
-            </div> -->
+            </div>
             <!-- Grid column -->
           </div>
           <!-- Grid row-->

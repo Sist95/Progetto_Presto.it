@@ -1,17 +1,19 @@
 <x-layout>
-@if(session()->has('message'))
-            <div class="alert alert-success text-center shadow rounded w-50" role="alert">
-                {{session('message')}}
-            </div>
-        @endif
-        @if(session()->has('errorMessage'))
-            <div class="alert alert-danger text-center shadow rounded w-50" role="alert">
-                {{session('errorMessage')}}
-            </div>
-        @endif 
+
     <div class="container-fluid text-center">
         <div class="row vh-100 justify-content-center align-items-center">
-            <div class="col-12">
+            @if(session()->has('message'))
+             <div class="alert alert-success text-center shadow rounded w-50" role="alert">
+                {{session('message')}}
+             </div>
+            @endif
+            @if(session()->has('errorMessage'))
+             <div class="alert alert-danger text-center shadow rounded w-50" role="alert">
+                {{session('errorMessage')}}
+              </div>
+            @endif 
+        <div class="col-12">
+           
                 <h1 class="display-1">{{env('APP_NAME')}}</h1>
                 <div class="d-flex justify-content-center my-3">
                     @auth

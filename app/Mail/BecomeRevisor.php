@@ -30,7 +30,7 @@ class BecomeRevisor extends Mailable
     public function envelope(): Envelope
     {
         return new Envelope(
-            subject: "Rendi revisiore l'utente" . $this->user->name,
+            subject: "Rendi revisiore l'utente " . $this->user->name,
         );
     }
 

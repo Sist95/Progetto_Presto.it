@@ -7,11 +7,11 @@
 </head>
 <body>
     <div>
-        <h1>il seguente utente ha chiesto di lavorare con noi</h1>
-        <h2>Ecco i suoi dati : </h2>
-        <p>Nome:{{$user->name}}</p>
-        <p>Email:{{$user->email}}</p>
-        <p>Clicca qui se vuoi renderl* revisore : </p>
+        <h1>Il seguente utente ha chiesto di lavorare con noi</h1>
+        <h2>Ecco i suoi dati: </h2>
+        <p>Nome: {{$user->name}}</p>
+        <p>Email: {{$user->email}}</p>
+        <p>Clicca qui se vuoi renderl* revisore: </p>
         <a href=""> Rendi revisore </a>
     </div>
 </body>
