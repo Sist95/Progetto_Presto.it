@@ -12,7 +12,7 @@
         <p>Nome: {{$user->name}}</p>
         <p>Email: {{$user->email}}</p>
         <p>Clicca qui se vuoi renderl* revisore: </p>
-        <a href=""> Rendi revisore </a>
+        <a href="{{route('make.revisor',compact('user'))}}"> Rendi revisore </a>
     </div>
 </body>
 </html>
