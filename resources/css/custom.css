@@ -45,7 +45,7 @@ body {
 }
 
 .scrollMorph-inner{
-    background: rgba(129, 252, 250, 0.5);
+    background: rgba(16, 232, 203, 0.7);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(9px);
     -webkit-backdrop-filter: blur(9px);
