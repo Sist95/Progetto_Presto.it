@@ -11,9 +11,9 @@
              <div class="alert alert-danger text-center shadow rounded w-50" role="alert">
                 {{session('errorMessage')}}
               </div>
-            @endif 
+            @endif
         <div class="col-12">
-           
+
                 <h1 class="display-1">{{env('APP_NAME')}}</h1>
                 <div class="d-flex justify-content-center my-3">
                     @auth
@@ -24,7 +24,7 @@
         </div>
         <div class="row justify-content-center align-items-center">
         @forelse($articles as $article)
-            <div class="col-12 col-md-3">
+            <div class="col-12 col-md-6 col-xl-4">
                 <x-card :article="$article" />
             </div>
         @empty
@@ -34,5 +34,5 @@
         @endforelse
         </div>
     </div>
-    
+
 </x-layout>
