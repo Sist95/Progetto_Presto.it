@@ -36,6 +36,10 @@
           <ul class="dropdown-menu">
             <!-- <li><a class="dropdown-item" href="#">Dashboard</a></li>
             <li><hr class="dropdown-divider"></li> -->
+            @if(Auth::user()->is_revisor)
+              <li><a class="dropdown-item" href="{{route('revisor.index')}}">Area revisore</a></li>
+              <li><hr class="dropdown-divider"></li>
+            @endif
             <li><a class="dropdown-item" href="{{route('create.article')}}">Inserisci annuncio</a></li>
             <li><hr class="dropdown-divider"></li>
             <li><a class="dropdown-item" href="#" onclick="

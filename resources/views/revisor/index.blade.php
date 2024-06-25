@@ -1,6 +1,11 @@
 <x-layout>
         <div class="continer-fluid pt-5">
             <div class="row">
+                @if(session()->has('message'))
+                    <div class="alert alert-success text-center shadow rounded w-50" role="alert">
+                        {{session('message')}}
+                    </div>
+                @endif
                 <div class="col-3">
                     <div class="rounded shadow bg-body-secondary">
                         <h1 class="display-5 text-center pb-2">
