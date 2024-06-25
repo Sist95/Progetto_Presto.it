@@ -12,7 +12,7 @@
                 {{session('errorMessage')}}
               </div>
             @endif
-        <div class="col-12">
+        <div class="col-10">
 
                 <h1 class="display-1">{{env('APP_NAME')}}</h1>
                 <div class="d-flex justify-content-center my-3">
