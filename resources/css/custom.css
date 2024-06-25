@@ -45,13 +45,21 @@ body {
 }
 
 .scrollMorph-inner{
-    background: rgba(16, 232, 203, 0.7);
+    /* background: rgba(16, 232, 203, 0.7);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(9px);
     -webkit-backdrop-filter: blur(9px);
-    border: 1px solid rgba(129, 252, 250, 0.3);
+    border: 1px solid rgba(129, 252, 250, 0.3); */
+
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
 
 }
+
 .footerMorph-inner-up {
     background: rgba(129, 252, 250, 0.5);
     border-radius: 16px;
@@ -87,6 +95,15 @@ body {
     backdrop-filter: blur(3px);
     -webkit-backdrop-filter: blur(5px);
     border: 1px solid rgba(255, 255, 255, 0.9);
+}
+
+.cardInputMorph {
+    background: rgba(255, 255, 255, 0.35);
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 /* Transition forse un pò fastidiosa */

@@ -17,7 +17,7 @@
                     @csrf
                     <div class="mb-3">
                         <label class="form-label">Indirizzo email</label>
-                        <input type="email" class="form-control" name="email" value="{{old('email')}}">
+                        <input type="email" class="cardInputMorph form-control" name="email" value="{{old('email')}}">
                         @error('email')
                             <span>{{$message}}</span>
                         @enderror
@@ -25,7 +25,7 @@
 
                     <div class="mb-3">
                         <label class="form-label">Password</label>
-                        <input type="password" class="form-control" name="password">
+                        <input type="password" class="cardInputMorph form-control" name="password">
                         @error('password')
                             <span>{{$message}}</span>
                         @enderror

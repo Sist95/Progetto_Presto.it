@@ -16,7 +16,7 @@
                     @csrf
                     <div class="mb-3">
                         <label class="form-label">Nome</label>
-                        <input type="text" class="form-control" name="name" value="{{old('name')}}">
+                        <input type="text" class="cardInputMorph form-control" name="name" value="{{old('name')}}">
                         @error('name')
                             <span>{{$message}}</span>
                         @enderror
@@ -24,7 +24,7 @@
 
                     <div class="mb-3">
                         <label class="form-label">Cognome</label>
-                        <input type="text" class="form-control" name="surname" value="{{old('surname')}}">
+                        <input type="text" class="cardInputMorph form-control" name="surname" value="{{old('surname')}}">
                         @error('surname')
                             <span>{{$message}}</span>
                         @enderror
@@ -32,7 +32,7 @@
 
                     <div class="mb-3">
                         <label class="form-label">Indirizzo email</label>
-                        <input type="email" class="form-control" name="email" value="{{old('email')}}">
+                        <input type="email" class="cardInputMorph form-control" name="email" value="{{old('email')}}">
                         @error('email')
                             <span>{{$message}}</span>
                         @enderror
@@ -40,7 +40,7 @@
 
                     <div class="mb-3">
                         <label class="form-label">Password</label>
-                        <input type="password" class="form-control" name="password">
+                        <input type="password" class="cardInputMorph form-control" name="password">
                         @error('password')
                             <span>{{$message}}</span>
                         @enderror
@@ -48,7 +48,7 @@
 
                     <div class="mb-3">
                         <label class="form-label">Conferma Password</label>
-                        <input type="password" class="form-control" name="password_confirmation">
+                        <input type="password" class="cardInputMorph form-control" name="password_confirmation">
                     </div>
                     <div class="d-flex justify-content-center mt-3">
                         <button type="submit" class="buttonCustomPrimary mb-4">Registrati</button>

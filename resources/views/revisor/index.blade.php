@@ -62,7 +62,7 @@
                 <h1 class="display-4">
                     Nessun articolo da revisionare
                 </h1>
-                <a href="{{route('homepage')}}" class="mt-5 buttonCustomPrimary">Torna alla homepage</a>
+                <a href="{{route('homepage')}}" class="mt-5 buttonCustomPrimary text-decoration-none">Torna alla homepage</a>
             </div>
         </div>
     @endif

@@ -19,7 +19,7 @@
 
                     <div class="mb-3">
                         <label class="form-label">Indirizzo email</label>
-                        <input type="email" class="form-control" name="email" value="{{old('email')}}">
+                        <input type="email" class="cardInputMorph form-control" name="email" value="{{old('email')}}">
                         @error('email')
                             <span> {{$message}}</span>
                         @enderror
@@ -27,7 +27,7 @@
 
                     <div class="mb-3">
                         <label class="form-label">Password</label>
-                        <input type="password" class="form-control" name="password">
+                        <input type="password" class="cardInputMorph form-control" name="password">
                         @error('password')
                             <span> {{$message}}</span>
                         @enderror
@@ -35,7 +35,7 @@
 
                     <div class="mb-3">
                         <label class="form-label">Conferma password</label>
-                        <input type="password" class="form-control" name="password_confirmation">
+                        <input type="password" class="cardInputMorph form-control" name="password_confirmation">
                     </div>
                     <div class="d-flex justify-content-center mt-3">
                         <button type="submit" class="buttonCustomPrimary mb-4">Reset Password</button>

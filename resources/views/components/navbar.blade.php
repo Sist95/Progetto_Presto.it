@@ -19,7 +19,7 @@
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Categorie
             </a>
-            <ul class="dropdown-menu  scrollMorph-inner">
+            <ul class="dropdown-menu scrollMorph-inner">
             @foreach ($categories as $category )
                 <li><a class="dropdown-item text-capitalize" href="{{route('byCategory', ['category'=>$category])}}">{{$category->name}}</a></li>
                 @if(!$loop->last)
@@ -33,7 +33,7 @@
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Ciao, {{auth()->user()->name}}
           </a>
-          <ul class="dropdown-menu">
+          <ul class="dropdown-menu scrollMorph-inner">
             <!-- <li><a class="dropdown-item" href="#">Dashboard</a></li>
             <li><hr class="dropdown-divider"></li> -->
             @if(Auth::user()->is_revisor)
