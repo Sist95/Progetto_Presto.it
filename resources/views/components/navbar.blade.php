@@ -66,7 +66,7 @@
           </ul>
           @endauth
           </li>
-          <form class="d-flex position-absolute bottom-2 end-0" role="search">
+          <form class="d-flex position-absolute bottom-2 end-0" role="search" action="{{route('article.search')}}" method="GET">
             <input class="form-control me-0" type="search" name="query" placeholder="Cerca" aria-label="Search" >
             <button class="buttonCustomWarning text-white ms-1 me-3" type="submit">Cerca</button>
           </form>
