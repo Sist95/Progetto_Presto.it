@@ -21,7 +21,8 @@ class ArticleFactory extends Factory
             'description'=>fake()->text(100),
             'price'=>rand(1,1000),
             'user_id'=>rand(1,40),
-            'category_id'=>rand(1,10)
+            'category_id'=>rand(1,10),
+            'is_accepted'=>true
         ];
     }
 }
