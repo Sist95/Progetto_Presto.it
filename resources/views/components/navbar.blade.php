@@ -1,7 +1,7 @@
-<nav class="navbar fixed-top navbar-expand-lg mb-2 navMorph-inner">
+<nav class="navbar fixed-top navbar-expand-lg primary-bg mb-2 navMorph-inner">
   <div class="container-fluid m-0">
     <a class="navbar-brand" href="#">
-      <img src="\img\LogoPresto.jpg" alt="Logo" width="50vh" height="50vh">
+      <img src="\img\LogoPresto.png" alt="Logo" width="60vh" height="50vh">
     </a>
     <a class="navbar-brand" href="/">{{env('APP_NAME')}}</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -19,7 +19,7 @@
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Categorie
             </a>
-            <ul class="dropdown-menu scrollMorph-inner">
+            <ul class="dropdown-menu  scrollMorph-inner">
             @foreach ($categories as $category )
                 <li><a class="dropdown-item text-capitalize" href="{{route('byCategory', ['category'=>$category])}}">{{$category->name}}</a></li>
                 @if(!$loop->last)
@@ -38,14 +38,6 @@
             <li><hr class="dropdown-divider"></li> -->
             <li><a class="dropdown-item" href="{{route('create.article')}}">Inserisci annuncio</a></li>
             <li><hr class="dropdown-divider"></li>
-            @if(Auth::user()->is_revisor)
-            <li><a class="dropdown-item" href="{{route('revisor.index')}}">Area revisore</a></li>
-            <span 
-                class="position-absolute top-2 start-100 translate-middle badge rounded-pill bg-danger">
-                {{\App\Models\Article::toBeRevisedCount()}}
-            </span>
-            <li><hr class="dropdown-divider"></li>
-            @endif
             <li><a class="dropdown-item" href="#" onclick="
             event.preventDefault();
             getElementById('form-logout').submit();
@@ -69,6 +61,7 @@
             <button class="buttonCustomWarning text-white ms-1 me-3" type="submit">Cerca</button>
           </form> --}}
       </ul>
+      
     </div>
   </div>
 </nav>
