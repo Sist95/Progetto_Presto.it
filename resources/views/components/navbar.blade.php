@@ -37,7 +37,13 @@
             <!-- <li><a class="dropdown-item" href="#">Dashboard</a></li>
             <li><hr class="dropdown-divider"></li> -->
             @if(Auth::user()->is_revisor)
-              <li><a class="dropdown-item" href="{{route('revisor.index')}}">Area revisore</a></li>
+              <li><a class="dropdown-item" href="{{route('revisor.index')}}">Area revisore
+                      <span
+                      class="position-absolute top-20 start-100 translate-middle badge rounded-pill bg-danger">
+                      {{\App\Models\Article::toBeRevisedCount()}}
+                      </span>
+                  </a>
+              </li>
               <li><hr class="dropdown-divider"></li>
             @endif
             <li><a class="dropdown-item" href="{{route('create.article')}}">Inserisci annuncio</a></li>
