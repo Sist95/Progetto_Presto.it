@@ -1,12 +1,12 @@
 <x-layout>
         <div class="continer-fluid pt-5">
-            <div class="row">
+            <div class="row justify-content-center align-items-center text-center">
                 @if(session()->has('message'))
                     <div class="alert alert-success text-center shadow rounded w-50" role="alert">
                         {{session('message')}}
                     </div>
                 @endif
-                <div class="col-3">
+                <div class="col-12">
                     <div class="rounded shadow bg-body-secondary">
                         <h1 class="display-5 text-center pb-2">
                         Revisor dashboard
@@ -15,7 +15,7 @@
                 </div>
             </div>
             @if($article_to_check)
-            <div class="row justify-content-center pt-5">
+            <div class="row justify-content-center align-items-center pt-5">
                 <div class="col-md-8">
                 <div class="row justify-content-center">
                      @for($i=0; $i <6; $i++)
