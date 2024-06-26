@@ -1,8 +1,13 @@
 <x-layout>
     <div class="row justify-content-center align-items-center text-center">
-        @if(session()->has('message'))
+        @if(session()->has('message_accepted'))
             <div class="alert alert-success text-center shadow rounded w-50" role="alert">
-                {{session('message')}}
+                {{session('message_accepted')}}
+            </div>
+        @endif
+        @if(session()->has('message_rejected'))
+            <div class="alert text-danger text-center shadow rounded w-50" role="alert">
+                {{session('message_rejected')}}
             </div>
         @endif
         <div class="col-12">
