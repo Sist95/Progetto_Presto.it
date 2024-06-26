@@ -37,7 +37,8 @@ class RevisorController extends Controller
     }
     public function review(Article $article){
         $article->setAccepted(null);
-        return redirect()->back()->with('message_rejected',"Hai rifiutato l'articolo $article->title");
+        return redirect('/revisor/index'); 
+        // ->back()->with('message_rejected',"Hai rifiutato l'articolo $article->title");
 
     }
     public function becomeRevisor(){

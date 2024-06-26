@@ -14,14 +14,10 @@
         <div class="col-12">
             <h1 class="display-4 mt-4">Revisor dashboard</h1>
         </div>
+        <div class="container">
+            <a href="{{route('revisor.show')}}" class="mt-3 mb-3 buttonCustomPrimary text-decoration-none">Articoli da revisionare</a>
+        </div>
     </div>
-    @if($lastArticle)
-        <form action="{{route('review',['article'=> $lastArticle])}}" method="POST">
-            @csrf
-            @method('PATCH')
-        <button class="buttonCustomDanger py-2 px-5">Revisiona</button>
-     </form>
-    @endif
     @if($article_to_check)
         <div class="container cardMorph-inner mt-4">
             <div class="row justify-content-center py-5">
