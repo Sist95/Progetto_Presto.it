@@ -1,4 +1,5 @@
 <x-layout>
+
     <div class="row justify-content-center align-items-center text-center">
         @if(session()->has('message_accepted'))
             <div class="alert alert-success text-center shadow rounded w-50" role="alert">
@@ -14,6 +15,13 @@
             <h1 class="display-4 mt-4">Revisor dashboard</h1>
         </div>
     </div>
+    @if($lastArticle)
+        <form action="{{route('review',['article'=> $lastArticle])}}" method="POST">
+            @csrf
+            @method('PATCH')
+        <button class="buttonCustomDanger py-2 px-5">Revisiona</button>
+     </form>
+    @endif
     @if($article_to_check)
         <div class="container cardMorph-inner mt-4">
             <div class="row justify-content-center py-5">
@@ -57,6 +65,7 @@
                             @method('PATCH')
                             <button class="buttonCustomDanger py-2 px-5">Rifiuta</button>
                         </form>
+                        
                     </div>
                 </div>
             </div>
