@@ -18,11 +18,13 @@ Route::get('/category/{category}', [ArticleController::class, 'byCategory'])->na
 
 Route::get('revisor/index', [RevisorController::class, 'index'])->middleware('isRevisor')->name('revisor.index');
 
+Route::get('revisor/index/{article}', [RevisorController::class, 'articleToCheck'])->middleware('isRevisor')->name('articleToCheck');
+
 Route::patch('/accept/{article}', [RevisorController::class, 'accept'])->name('accept');
 
 Route::patch('/reject/{article}', [RevisorController::class, 'reject'])->name('reject');
 
-Route::patch('/review/{article}', [RevisorController::class, 'review'])->name('review');
+// Route::patch('/review/{article}', [RevisorController::class, 'review'])->name('review');
 
 Route::get('/revisor/request', [RevisorController::class, 'becomeRevisor'])->middleware('auth')->name('become.revisor');
 

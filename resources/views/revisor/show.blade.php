@@ -53,11 +53,11 @@
                 <td>{{Str::limit($article->description, 25)}}</td>
                 <td class="d-none d-sm-block">{{$article->price}} €</td>
                 <td class="d-flex">
-                    <form action="{{route('review',['article'=> $article])}}" method="POST">
-                        @csrf
-                        @method('PATCH')
-                        <button class="buttonCustomWarning me-1">Revisiona</button>
-                    </form>
+                    <a href="{{route('articleToCheck',$article)}}"><button type="submit" class="buttonCustomWarning me-1">Revisiona</button></a>
+                       
+                       
+                        
+                  
                     {{-- <form method="POST" action="{{route('categories.destroy', $category)}}">
                         @csrf
                         {{ method_field('DELETE') }}
