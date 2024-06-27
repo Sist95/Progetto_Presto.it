@@ -50,7 +50,7 @@
                         <h4 class="text-muted"># {{$article_to_check->category->name}}</h4>
                         <p class="h6">{{$article_to_check->description}}</p>
                     </div>
-                    <div class="d-flex pb-4 justify-content-around">
+                    <div class="d-flex flex-column flex-md-row">
                         <form action="{{route('accept',['article'=> $article_to_check])}}" method="POST">
                             @csrf
                             @method('PATCH')
