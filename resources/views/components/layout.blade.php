@@ -10,11 +10,11 @@
 <body>
 
     <x-navbar/>
-        
+
     <div class="container-fluid">
         {{$slot}}
     </div>
-    
+
     <x-footer/>
 </body>
 </html>

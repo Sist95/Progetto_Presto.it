@@ -24,9 +24,7 @@ class DatabaseSeeder extends Seeder
         'Accessori',
         'Motori',
       ];
-    /**
-     * Seed the application's database.
-     */
+
     public function run(): void
      {
         foreach($this->categories as $category){

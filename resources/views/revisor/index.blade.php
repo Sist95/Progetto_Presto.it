@@ -19,9 +19,9 @@
         </div>
     </div>
     @if($article_to_check)
-        <div class="container cardMorph-inner mt-4">
-            <div class="row justify-content-center py-5">
-                <div class="col-12 col-md-6">
+        <div class="container cardMorph-inner mt-4 ">
+            <div class="row justify-content-center pt-4 py-lg-3">
+                <div class="col-12 col-lg-6">
                     <div id="carouselExample" class="carousel slide carousel-custom ms-2">
                         <div class="carousel-inner">
                             @for($i = 0; $i < 6; $i ++)
@@ -42,24 +42,24 @@
                         </button>
                     </div>
                 </div>
-                <div class="col-12 col-md-6 mb-3 text-center">
-                    <h2 class="display-5 fw-bold">{{$article_to_check->title}}</h2>
-                    <div class="d-flex flex-column justify-content-center h-75">
+                <div class="col-12 col-md-6 mb-3 text-center d-flex flex-column align-items-center justify-content-center">
+                    <h2 class="display-5 fw-bold mt-3">{{$article_to_check->title}}</h2>
+                    <div class="d-flex flex-column justify-content-center">
                         <h3>Autore: {{$article_to_check->user->name}}</h3>
                         <h4 class="fw-bold">{{$article_to_check->price}} €</h4>
                         <h4 class="text-muted"># {{$article_to_check->category->name}}</h4>
                         <p class="h6">{{$article_to_check->description}}</p>
                     </div>
-                    <div class="d-flex justify-content-evenly flex-column flex-md-row">
+                    <div class="d-flex justify-content-evenly flex-column flex-lg-row">
                         <form action="{{route('accept',['article'=> $article_to_check])}}" method="POST">
                             @csrf
                             @method('PATCH')
-                            <button class="buttonCustomSuccess py-2 px-5 ">Accetta</button>
+                            <button class="buttonCustomSuccess py-2 px-5 mb-3 mt-2 mb-2 mx-lg-3">Accetta</button>
                         </form>
                         <form action="{{route('reject',['article'=> $article_to_check])}}" method="POST">
                             @csrf
                             @method('PATCH')
-                            <button class="buttonCustomDanger py-2 px-5 mb-3">Rifiuta</button>
+                            <button class="buttonCustomDanger py-2 px-5 mb-3 mt-2">Rifiuta</button>
                         </form>
 
                     </div>

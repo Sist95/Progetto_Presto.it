@@ -29,9 +29,9 @@
 }
 
 body {
-    margin-top: 20vh;
-    background-color: var(--white);
-    background-image: url("/public/img/Sfondo.jpg");
+    margin-top: 10vh;
+    background-color: var(--tertiary);
+    /* background-image: url("/public/img/Sfondo.jpg"); */
     background-size: contain;
     font-family: "urbanist";
 }
@@ -114,14 +114,15 @@ body {
 } */
 
 
+
 /* Dispositivi mobili piccoli, medi e grandi */
 @media screen and (min-width: 320px) and (max-width: 766.4px) {
     .cardMorph {
         width: 90vw;
         height: auto;
     }
-    .buttonCustomWarning{
-        /* width: 30%; */
+    /* .buttonCustomWarning{
+        width: 30%;
         height: 40px;
 
 
@@ -141,7 +142,7 @@ body {
        font-size: small;
         width: 50%;
         margin-top: 4px;
-    }
+    } */
 }
 
 /* Tablet e laptop*/

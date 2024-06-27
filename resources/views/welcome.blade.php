@@ -1,7 +1,7 @@
 <x-layout>
 
     <div class="container-fluid text-center">
-        <div class="row vh-100 justify-content-center align-items-center">
+        <div class="row justify-content-center align-items-center">
             @if(session()->has('message'))
              <div class="alert alert-success text-center shadow rounded w-50" role="alert">
                 {{session('message')}}
@@ -15,7 +15,7 @@
         <div class="col-10">
 
                 <h1 class="display-1">{{env('APP_NAME')}}</h1>
-                <div class="d-flex justify-content-center my-3">
+                <div class="d-flex justify-content-center my-3 mb-5">
                     @auth
                         <a class="buttonCustomPrimary text-decoration-none" href="{{route('create.article')}}">Inserisci un annuncio</a>
                     @endauth

@@ -1,13 +1,13 @@
 <x-layout>
-    
+
     <div class="row justify-content-center align-items-center text-center">
         <div class="col-12">
             <h1 class="display-4 mt-4">Dettaglio dell'articolo: {{ $article->title }}</h1>
         </div>
     </div>
     <div class="container cardMorph-inner mt-4">
-    <div class="row justify-content-center py-5">
-        <div class="col-12 col-md-6">
+    <div class="row justify-content-center py-4">
+        <div class="col-12 col-lg-6">
           <div id="carouselExample" class="carousel slide carousel-custom ms-2">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
@@ -32,10 +32,10 @@
                 </button>
             </div>
         </div>
-    
-    <div class="col-12 col-md-6 mb-3 text-center">
-        <h2 class="display-5"><span class="fw-bold">Titolo: </span>{{ $article->title }}</h2>
-        <div class="d-flex flex-column justify-content-center h-75">
+
+    <div class="col-12 col-md-6 mb-3 d-flex flex-column justify-content-center align-items-center">
+        <div class="text-center">
+            <h2 class="display-5 mt-4 mt-lg-0"><span class="fw-bold">Titolo: </span>{{ $article->title }}</h2>
             <h3 class="fw-bold">Prezzo: {{ $article->price }} €</h3>
             <h4>Descrizione:</h4>
             <h5>{{ $article->description }}</h5>

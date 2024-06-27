@@ -11,9 +11,9 @@
     text-shadow 0.3s ease;
   padding: 10px 0px;
   color: #09090b;
-  font-weight: bold;
+  /* font-weight: bold; */
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Text drop shadow */
-  display: inline-block;
+  /* display: inline-block; */
 }
 
 .buttonCustomWarning:hover {
