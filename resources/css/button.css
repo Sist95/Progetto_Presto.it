@@ -212,11 +212,11 @@
     background: #EDFBD8;
     border-radius: 8px;
     border: 2px solid #84D65A;
-    box-shadow: 0px 0px 5px -3px #EDFBD8; 
-    box-shadow: inset 0px 2px 0px 0px #EDFBD8,0px 7px 24px 0px #84D65A; 
+    box-shadow: 0px 0px 5px -3px #EDFBD8;
+    box-shadow: inset 0px 2px 0px 0px #EDFBD8,0px 7px 24px 0px #84D65A;
   }
-    
- .text-danger{  
+
+ .text-danger{
   width: 100%;
   padding: 1px;
   margin-top: 5px;
@@ -227,8 +227,8 @@
   background: #ea908a;
   border-radius: 8px;
   border: 1px solid #EF665B;
-  box-shadow: 0px 0px 8px 2px #EF665B; 
- 
+  box-shadow: 0px 0px 8px 2px #EF665B;
+
 
  }
   /* EF665B */

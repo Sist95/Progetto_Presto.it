@@ -61,7 +61,7 @@
                             @method('PATCH')
                             <button class="buttonCustomDanger py-2 px-5">Rifiuta</button>
                         </form>
-                        
+
                     </div>
                 </div>
             </div>
