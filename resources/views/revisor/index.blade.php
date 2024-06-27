@@ -50,16 +50,16 @@
                         <h4 class="text-muted"># {{$article_to_check->category->name}}</h4>
                         <p class="h6">{{$article_to_check->description}}</p>
                     </div>
-                    <div class="d-flex flex-column flex-md-row">
+                    <div class="d-flex justify-content-evenly flex-column flex-md-row">
                         <form action="{{route('accept',['article'=> $article_to_check])}}" method="POST">
                             @csrf
                             @method('PATCH')
-                            <button class="buttonCustomSuccess py-2 px-5">Accetta</button>
+                            <button class="buttonCustomSuccess py-2 px-5 ">Accetta</button>
                         </form>
                         <form action="{{route('reject',['article'=> $article_to_check])}}" method="POST">
                             @csrf
                             @method('PATCH')
-                            <button class="buttonCustomDanger py-2 px-5">Rifiuta</button>
+                            <button class="buttonCustomDanger py-2 px-5 mb-3">Rifiuta</button>
                         </form>
 
                     </div>
