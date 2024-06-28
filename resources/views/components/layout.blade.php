@@ -11,7 +11,7 @@
 
     <x-navbar/>
 
-    <div class="container-fluid">
+    <div class="container-fluid pb-3">
         {{$slot}}
     </div>
 
