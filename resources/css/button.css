@@ -231,4 +231,184 @@
 
 
  }
-  /* EF665B */
+
+
+ .content {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.hero {
+  position: relative;
+  background: rgba(16, 232, 203);
+  color: white;
+  height: 100vh;
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.hero h2 {
+  position: relative;
+  z-index: 1;
+  font-size: 4.5rem;
+  margin: 0 0 10px;
+  line-height: 1;
+  color: rgba(48, 10, 241, 0.874);
+}
+
+.hero p{
+  position: relative;
+  z-index: 1;
+  font-size: 2.5rem;
+  width: 70%;
+  padding-right: 20px;
+  line-height: 1;
+  color: #2d195fef;
+  box-sizing: b;
+}
+
+.hero .buttonAccedi{
+    position: relative;
+    z-index: 1;
+    width: 20%;
+    height: 50px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    padding-block: 0.5rem;
+    padding-inline: 1.25rem;
+    background-color: rgb(0 107 179);
+    border-radius: 9999px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffff;
+    gap: 10px;
+    font-weight: bold;
+    border: 3px solid #ffffff4d;
+    outline: none;
+    overflow: hidden;
+    font-size: 15px;
+  }
+
+  .icon {
+    width: 24px;
+    height: 24px;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .buttonAccedi:hover {
+    transform: scale(1.05);
+    border-color: #fff9;
+  }
+
+  .buttonAccedi:hover .icon {
+    transform: translate(4px);
+  }
+
+  .buttonAccedi:hover::before {
+    animation: shine 1.5s ease-out infinite;
+  }
+
+  .buttonAccedi::before {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 100%;
+    background-image: linear-gradient(
+      120deg,
+      rgba(255, 255, 255, 0) 30%,
+      rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0) 70%
+    );
+    top: 0;
+    left: -100px;
+    opacity: 0.6;
+  }
+
+  @keyframes shine {
+    0% {
+      left: -100px;
+    }
+
+    60% {
+      left: 100%;
+    }
+
+    to {
+      left: 100%;
+    }
+  }
+
+
+.waves {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 00px;
+  /* background-color: rgba(93, 223, 12, 0.882); */
+  box-shadow: inset 0 0 50px rgba(231, 234, 236, 0.882);
+  transition: 500ms;
+}
+
+.waves::before,
+.waves::after {
+  content: '';
+  position: absolute;
+  width: 200vw;
+  height: 300vw;
+  top: -50vw;
+  left: 50%;
+  transform: translate(-50%, -75%);
+}
+
+.waves::before {
+  border-radius: 44%;
+  background: rgba(23, 219, 193, 0.7);
+  animation: waves 8s linear infinite;
+}
+
+.waves::after {
+  border-radius: 44%;
+  background: rgba(231, 235, 235, 0.637);
+  animation: waves 15s linear infinite;
+}
+
+@keyframes waves {
+  0% {
+    transform: translate(-50%, -75%) rotate(0deg);
+  }
+
+  100% {
+    transform: translate(-50%, -75%) rotate(360deg);
+  }
+}
+
+.buttonRevisor{
+    display: flex;
+    width: 40vh;
+    margin-left: -20%;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background: linear-gradient(45deg, #3284ff, #0d6efd);
+    border: 2px solid #3284ff;
+    border-radius: 10px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease,
+      text-shadow 0.3s ease;
+    padding: 10px 20px;
+    color: rgb(16, 2, 2);
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Text drop shadow */
+    display: inline-block;
+  }
+  
+  .buttonRevisor:hover {
+    background-color: #2f7ef4;
+    box-shadow: 0 0 12px #002a6a;
+    text-shadow: 0 0 4px #488ef8; /* Hover text shadow */
+    border-color: #0d6efd;
+  }

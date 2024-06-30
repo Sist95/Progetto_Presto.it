@@ -42,7 +42,7 @@
             <!-- Grid column -->
              <div class="col-md-2">
               <h6 class="text-uppercase font-weight-bold">
-                <a href="{{route('become.revisor')}}" class="text-black">Diventa revisore</a>
+                <a href="{{route('become.revisor')}}" class="buttonRevisor">Diventa revisore</a>
               </h6>
             </div>
             <!-- Grid column -->

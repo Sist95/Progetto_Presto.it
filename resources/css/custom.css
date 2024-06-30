@@ -31,7 +31,7 @@
 body {
     margin-top: 10vh;
     background-color: var(--tertiary);
-    /* background-image: url("/public/img/Sfondo.jpg"); */
+    background-image: url("/public/img/Sfondo.jpg");
     background-size: contain;
     font-family: "urbanist";
 }
@@ -51,7 +51,7 @@ body {
     backdrop-filter: blur(9px);
     -webkit-backdrop-filter: blur(9px);
     border: 1px solid rgba(129, 252, 250, 0.3); */
-
+    
     background: rgba(255, 255, 255, 0.7);
     border-radius: 10px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -62,6 +62,8 @@ body {
 }
 
 .footerMorph-inner-up {
+    margin-top: 30vh;
+    height: 50vh;
     background: rgba(129, 252, 250, 0.5);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -71,6 +73,7 @@ body {
 }
 
 .footerMorph-inner-down {
+    margin-top: -18vh;
     background: rgba(16, 232, 203, 0.7);
     border-bottom-right-radius: 16px;
     border-bottom-left-radius: 16px;
@@ -121,6 +124,8 @@ body {
         width: 90vw;
         height: auto;
     }
+
+
     /* .buttonCustomWarning{
         width: 30%;
         height: 40px;
