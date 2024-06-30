@@ -12,7 +12,14 @@
         }
 
         .email>div {
+            margin-top: 10vh;
+            width: 80%;
+            margin: auto;
+            box-shadow: 0px 51px 86px 0px rgba(0,0,0,0.75);
+            -webkit-box-shadow: 0px 51px 86px 0px rgba(0,0,0,0.75);
+            -moz-box-shadow: 0px 51px 86px 0px rgba(0,0,0,0.75);
             border: 2px solid rgb(29, 156, 179);
+            border-radius: 12px;
             text-align: center;
         }
 
@@ -48,7 +55,7 @@
         .btn:hover {
             background-color: #0867ec;
             border: solid 2px #0867ec;
-            border-radius: 4px;
+            border-radius: 8px;
             box-sizing: border-box;
             color: white;
             cursor: pointer;
