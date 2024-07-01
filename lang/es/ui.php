@@ -3,7 +3,15 @@
 return[
     "hello"=>"¡Una ola de anuncios todos para TI!",
     "annunci"=>"Anuncios",
-    "Area_revisore"=>"Área de revisor",
+    "area_revisore"=>"Área de revisor",
+    "Categorie"=>"Categorías",
+    "Ospite"=>"Invitado",
+    "Inserisci annuncio"=>"Insertar anuncio",
+    "Accedi"=>"Acceso",
+    "Registrati"=>"Regístrate ahora",
+    "Log out"=>"Cerrar sesión",
+    "Ciao"=>"¡Hola!, ",
+    "Cerca"=>"Busca",
     "Abbigliamento"=>"Ropa",
     "Accessori"=>"Accesorios",
     "Animali domestici"=>"Mascotas",
@@ -12,4 +20,6 @@ return[
     "Giocattoli"=>"Juguetes",
     "Libri e riviste"=>"Libros y revistas",
     "Motori"=>"Motores",
+    "Salute e bellezza"=>"Saludo y belleza",
+    "Sport"=>"Deporte",
 ];

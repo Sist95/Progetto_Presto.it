@@ -3,7 +3,15 @@
 return[
     "hello"=>"Un ondata di annunci tutti per TE!",
     "annunci"=>"Annunci",
-    "Area_revisore"=>"Area_revisore",
+    "area_revisore"=>"Area revisore",
+    "Categorie"=>"Categorie",
+    "Ospite"=>"Ospite",
+    "Inserisci annuncio"=>"Inserisci annuncio",
+    "Accedi"=>"Accedi",
+    "Registrati"=>"Registrati",
+    "Log out"=>"Esci",
+    "Cerca"=>"Cerca",
+    "Ciao"=>"Ciao, ",
     "Abbigliamento"=>"Abbigliamento",
     "Accessori"=>"Accessori",
     "Animali domestici"=>"Animali domestici",
@@ -12,4 +20,6 @@ return[
     "Giocattoli"=>"Giocattoli",
     "Libri e riviste"=>"Libri e riviste",
     "Motori"=>"Motori",
+    "Salute e bellezza"=>"Salute e bellezza",
+    "Sport"=>"Sport",
 ];
