@@ -1,5 +1,5 @@
 <x-layout>
-    <section class="hero rounded-5 rounded-top-0">
+    <section class="hero rounded-5 rounded-top-0 py-5">
         <div class="row">
         <div class="col-6 px-5">
             <p >{{__('ui.hello')}} </p>
