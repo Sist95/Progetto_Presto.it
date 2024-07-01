@@ -34,3 +34,4 @@ Route::get('/search/article', [PublicController::class, 'searchArticles'])->name
 
 Route::get('revisor/show', [RevisorController::class, 'show'])->middleware('isRevisor')->name('revisor.show');
 
+Route::post('/lingua/{lang}',[PublicController::class,'setLanguage'])->name('setLocale');

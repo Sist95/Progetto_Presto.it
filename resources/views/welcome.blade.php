@@ -2,10 +2,11 @@
     <section class="hero rounded-5 rounded-top-0">
         <div class="row">
         <div class="col-6 px-5">
-            <p>Un' ondata di annunci tutti per TE!</p>
+            <p >{{__('ui.hello')}} </p>
+
          </div>
           <div class="col-6">
-            <h2>{{env('APP_NAME')}}</h2> 
+            <h2>{{env('APP_NAME')}}</h2>
         </div>
           </div>
           <a href="{{route('login')}}" class="buttonAccedi px-5" >Accedi
