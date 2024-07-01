@@ -13,7 +13,7 @@
           <a class="nav-link @if(Route::is('homepage')) active @endif" aria-current="page" href="{{route('homepage')}}">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="{{route('article.index')}}">Annunci</a>
+          <a class="nav-link" href="{{route('article.index')}}">{{__('ui.annunci')}}</a>
         </li>
         <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -21,7 +21,7 @@
             </a>
             <ul class="dropdown-menu scrollMorph-inner">
             @foreach ($categories as $category )
-                <li><a class="dropdown-item text-capitalize" href="{{route('byCategory', ['category'=>$category])}}">{{$category->name}}</a></li>
+                <li><a class="dropdown-item text-capitalize" href="{{route('byCategory', ['category'=>$category])}}">{{__("ui.$category->name")}}</a></li>
                 @if(!$loop->last)
                 <hr class="dropdown-divider">
                 @endif
@@ -37,7 +37,7 @@
             <!-- <li><a class="dropdown-item" href="#">Dashboard</a></li>
             <li><hr class="dropdown-divider"></li> -->
             @if(Auth::user()->is_revisor)
-              <li><a class="dropdown-item" href="{{route('revisor.index')}}">Area revisore
+              <li><a class="dropdown-item" href="{{route('revisor.index')}}">{{__('ui.area_revisore')}}
                       <span
                       class="position-absolute top-20 start-100 translate-middle badge rounded-pill bg-danger">
                       {{\App\Models\Article::toBeRevisedCount()}}
