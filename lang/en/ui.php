@@ -1,6 +1,8 @@
 <?php
 
 return[
+    "Nome"=>"Name",
+    "Cognome"=>"Surname",
     "hello"=>"A wave of ads for you.",
     "annunci"=>"Ads",
     "area_revisore"=>"Reviewer area",
@@ -10,6 +12,7 @@ return[
     "Accedi"=>"Log in",
     "Registrati"=>"Sign in",
     "Log out"=>"Log out",
+    "Password"=>"Password",
     "Ciao"=>"Hello, ",
     "Cerca"=>"Search",
     "Abbigliamento"=>"Clothing",
@@ -38,4 +41,15 @@ return[
      "Articoli_revi" => "Items to review",
      "Nessun_articolo" => "No items to review",
      "Homepage"=>"Back to Homepage",
+     "Annunci_categoria"=>"Ads category ",
+     "No_annunci_categoria"=>"No ads have been created for this category yet",
+     "Recupera_password"=>"Reset your password",
+     "Indirizzo_email"=>"Email address",
+     "Recupera_password"=>"Reset password",
+     "Ricordati_di_me"=>"Remeber me",
+     "Password_dimenticata"=>"Forgot password?",
+     "Conferma_password"=>"Confirm password",
+     "Conferma_mail"=>"Confirm your email",
+     "Conferma"=>"Confirm",
+     "Email_di_verifica"=>"Verification email has been sent!",
 ];

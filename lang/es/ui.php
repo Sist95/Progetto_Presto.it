@@ -1,6 +1,8 @@
 <?php
 
 return[
+    "Nome"=>"Nombre",
+    "Cognome"=>"Apellido",
     "hello"=>"Una onda de anuncios para ti.",
     "annunci"=>"Anuncios",
     "area_revisore"=>"Área de revisor",
@@ -10,6 +12,7 @@ return[
     "Accedi"=>"Acceso",
     "Registrati"=>"Regístrate ahora",
     "Log out"=>"Cerrar sesión",
+    "Password"=>"Contraseña",
     "Ciao"=>"Hola, ",
     "Cerca"=>"Busca",
     "Abbigliamento"=>"Ropa",
@@ -30,7 +33,7 @@ return[
     "Dett_articolo" => "Detalle del artículo:",
     "Titolo"=> "Título",
     "Descrizione"=>"Descripción",
-    "Ris_ricerca"=> "Resultado de búsqueda:",
+    "Ris_ricerca"=> "Resultado de búsqueda: ",
     "No_ricerca"=> "Ningún anuncio coincide con su búsqueda.",
     "Pubblica_articolo"=> "Publicar un artículo",
     "Crea" => "Crear",
@@ -38,4 +41,15 @@ return[
     "Articoli_revi" => "Artículos para revisar",
     "Nessun_articolo" => "No hay elementos para revisar",
     "Homepage"=>"Volver a la página de inicio",
+    "Annunci_categoria"=>"Anuncios de categoría ",
+    "No_annunci_categoria"=>"Aún no se han creado anuncios para esta categoría",
+    "Recupera_password"=>"Recupera tu contraseña",
+    "Indirizzo_email"=>"Correo electrónico",
+    "Recupera_password"=>"Recuperación de contraseña",
+    "Ricordati_di_me"=>"Acuérdate de mí",
+    "Password_dimenticata"=>"¿Has olvidado tu contraseña?",
+    "Conferma_password"=>"Confirmar contraseña",
+    "Conferma_mail"=>"Confirme su correo electrónico",
+    "Conferma"=>"Confirmar",
+    "Email_di_verifica"=>"¡El correo electrónico de verificación ha sido enviado!",
 ];
