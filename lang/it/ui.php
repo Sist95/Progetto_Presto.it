@@ -52,6 +52,9 @@ return[
     "Conferma_mail"=>"Conferma la tua mail",
     "Conferma"=>"Conferma",
     "Email_di_verifica"=>"La mail di verifica è stata inviata!",
-
-
+    "Seleziona_categoria"=>"Seleziona categoria",
+    "Accetta"=>"Accetta",
+    "Rifiuta"=>"Rifiuta",
+    "Azioni"=>"Azioni",
+    "Revisiona"=>"Revisiona",
 ];

@@ -54,12 +54,12 @@
                         <form action="{{route('accept',['article'=> $article_to_check])}}" method="POST">
                             @csrf
                             @method('PATCH')
-                            <button class="buttonCustomSuccess py-2 px-5 mb-3 mt-2 mb-2 mx-lg-3">Accetta</button>
+                            <button class="buttonCustomSuccess py-2 px-5 mb-3 mt-2 mb-2 mx-lg-3">{{__('ui.Accetta')}}</button>
                         </form>
                         <form action="{{route('reject',['article'=> $article_to_check])}}" method="POST">
                             @csrf
                             @method('PATCH')
-                            <button class="buttonCustomDanger py-2 px-5 mb-3 mt-2">Rifiuta</button>
+                            <button class="buttonCustomDanger py-2 px-5 mb-3 mt-2">{{__('ui.Rifiuta')}}</button>
                         </form>
 
                     </div>
@@ -72,7 +72,7 @@
                 <h1 class="display-4">
                     {{__('ui.Nessun_articolo')}}
                 </h1>
-                <a href="{{route('homepage')}}" class="mt-5 buttonCustomPrimary text-decoration-none"> {{__('ui.Homepage')}}</a>
+                <a href="{{route('homepage')}}" class="mt-5 buttonCustomPrimary text-decoration-none">{{__('ui.Homepage')}}</a>
             </div>
         </div>
     @endif

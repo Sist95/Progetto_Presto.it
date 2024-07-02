@@ -52,4 +52,9 @@ return[
     "Conferma_mail"=>"Confirme su correo electrónico",
     "Conferma"=>"Confirmar",
     "Email_di_verifica"=>"¡El correo electrónico de verificación ha sido enviado!",
+    "Seleziona_categoria"=>"Selecciona una categoría",
+    "Accetta"=>"Aceptar",
+    "Rifiuta"=>"Rechazar",
+    "Azioni"=>"Comportamiento",
+    "Revisiona"=>"Revisar",
 ];

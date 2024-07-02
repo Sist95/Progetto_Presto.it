@@ -39,10 +39,10 @@
                         <thead class="table-light">
                             <tr>
                                 {{-- <th scope="col">ID</th> --}}
-                                <th scope="col">Nome</th>
+                                <th scope="col">{{__('ui.Nome')}}</th>
                                 {{-- <th scope="col">Descrizione</th> --}}
                                 {{-- <th scope="col">Prezzo</th> --}}
-                                <th scope="col">Azioni</th>
+                                <th scope="col">{{__('ui.Azioni')}}</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -54,7 +54,7 @@
                                     {{-- <td >{{ $article->price }} €</td> --}}
                                     <td class="d-flex justify-content-center">
                                         <a href="{{ route('articleToCheck', $article) }}"><button type="submit"
-                                                class="buttonCustomWarning me-1">Revisiona</button></a>
+                                                class="buttonCustomWarning me-1">{{__('ui.Revisiona')}}</button></a>
 
 
 
