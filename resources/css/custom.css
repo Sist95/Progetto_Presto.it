@@ -29,7 +29,7 @@
 }
 
 body {
-    margin-top: 10vh;
+    margin-top: 14vh;
     background-color: var(--tertiary);
     background-image: url("/public/img/Sfondo.jpg");
     background-size: contain;

@@ -270,7 +270,7 @@
   box-sizing: b;
 }
 
-.hero .buttonAccedi{
+.hero .buttonHero{
     position: relative;
     z-index: 1;
     width: 20%;
@@ -299,20 +299,20 @@
     transition: all 0.3s ease-in-out;
   }
 
-  .buttonAccedi:hover {
+  .buttonHero:hover {
     transform: scale(1.05);
     border-color: #fff9;
   }
 
-  .buttonAccedi:hover .icon {
+  .buttonHero:hover .icon {
     transform: translate(4px);
   }
 
-  .buttonAccedi:hover::before {
+  .buttonHero:hover::before {
     animation: shine 1.5s ease-out infinite;
   }
 
-  .buttonAccedi::before {
+  .buttonHero::before {
     content: "";
     position: absolute;
     width: 100px;
