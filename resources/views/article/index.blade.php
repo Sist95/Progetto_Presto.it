@@ -2,7 +2,7 @@
     <div class="container-fluid">
         <div class="row justify-content-center align-items-center text-center">
             <div class="col-12">
-                <h1 class="display-1">I nostri annunci</h1>
+                <h1 class="display-1">{{__('ui.I_nostri')}}</h1>
             </div>
         </div>
         <div class="row justify-content-center align-items-center py-5">
@@ -12,7 +12,7 @@
                 </div>
             @empty
                 <div class="col-12">
-                    <h3 class="text-center">Non sono ancora presenti annunci</h3>
+                    <h3 class="text-center">{{__('ui.Annunci_non')}}</h3>
                 </div>
             @endforelse
         </div>

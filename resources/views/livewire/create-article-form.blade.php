@@ -7,7 +7,7 @@
 <form class="shadow rounded p-5 my-5 cardMorph-inner" wire:submit="store">
 
     <div class="mb-3">
-        <label for="title" class="form-label">Titolo</label>
+        <label for="title" class="form-label">{{__('ui.Titolo')}}</label>
         <input type="text" class="cardInputMorph form-control @error('title') is-invalid @enderror" id="title"
             wire:model.blur="title">
         @error('title')
@@ -15,7 +15,7 @@
         @enderror
     </div>
     <div class="mb-3">
-        <label for="description" class="form-label">Descrizione</label>
+        <label for="description" class="form-label">{{__('ui.Descrizione')}}</label>
         <textarea id="description" cols="30" rows="10" class="cardInputMorph form-control @error('description') is-invalid @enderror"
             wire:model.blur="description"></textarea>
         @error('description')
@@ -23,7 +23,7 @@
         @enderror
     </div>
     <div class="mb-3">
-        <label class="form-label" for="price">Prezzo</label>
+        <label class="form-label" for="price">{{__('ui.Prezzo')}}</label>
         <input type="text" class="cardInputMorph form-control @error('price') is-invalid @enderror" id="price"
             wire:model.blur="price">
         @error('price')
@@ -42,7 +42,7 @@
         @enderror
     </div>
     <div class="d-flex justify-content-center">
-        <button type="submit" class="buttonCustomPrimary">Crea</button>
+        <button type="submit" class="buttonCustomPrimary">{{__('ui.Crea')}}</button>
     </div>
 
 </form>

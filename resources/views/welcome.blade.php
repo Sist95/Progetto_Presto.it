@@ -35,7 +35,7 @@
                 {{-- <h1 class="display-1">{{env('APP_NAME')}}</h1> --}}
                 <div class="d-flex justify-content-center my-3 mb-5">
                     @auth
-                        <a class="buttonCustomPrimary text-decoration-none" href="{{route('create.article')}}">Inserisci un annuncio</a>
+                        <a class="buttonCustomPrimary text-decoration-none" href="{{route('create.article')}}">{{__('ui.Inserisci annuncio')}}</a>
                     @endauth
                 </div>
             </div>
@@ -47,7 +47,7 @@
             </div>
         @empty
             <div class="col-12">
-                <h3 class="text-center">Non sono ancora presenti annunci</h3>
+                <h3 class="text-center">{{__('ui.Annunci_non')}}</h3>
             </div>
         @endforelse
         </div>

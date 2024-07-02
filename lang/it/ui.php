@@ -1,7 +1,7 @@
 <?php
 
 return[
-    "hello"=>"Un ondata di annunci tutti per TE!",
+    "hello"=>"Un ondata di annunci tutti per te.",
     "annunci"=>"Annunci",
     "area_revisore"=>"Area revisore",
     "Categorie"=>"Categorie",
@@ -22,4 +22,20 @@ return[
     "Motori"=>"Motori",
     "Salute e bellezza"=>"Salute e bellezza",
     "Sport"=>"Sport",
+    "Annunci_non" => "Annunci non presenti",
+    "Prezzo" => "Prezzo",
+    "Mostra" => "Mostra",
+    "Revisore" => "Diventa Revisore",
+    "I_nostri"=> "I nostri annunci",
+    "Dett_articolo" => "Dettaglio dell'articolo:",
+    "Titolo"=> "Titolo",
+    "Descrizione"=>"Descrizione",
+    "Ris_ricerca"=> "Risultato per la ricerca:",
+    "No_ricerca"=> "Nessun annuncio corrisponde alla tua ricerca.",
+    "Pubblica_articolo"=> "Pubblica un articolo",
+    "Crea" => "Crea",
+    "Revisor_dash" => "Revisor Dashboard",
+    "Articoli_revi" => "Articoli da revisionare",
+    "Nessun_articolo" => "Nessun articolo da revisionare",
+    "Homepage"=>"Torna alla homepage",
 ];

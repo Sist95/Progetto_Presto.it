@@ -12,10 +12,10 @@
             </div>
         @endif
         <div class="col-12">
-            <h1 class="display-4 mt-4">Revisor dashboard</h1>
+            <h1 class="display-4 mt-4">{{__('ui.Revisor_dash')}}</h1>
         </div>
         <div class="container">
-            <a href="{{route('revisor.show')}}" class="mt-3 mb-3 buttonCustomPrimary text-decoration-none">Articoli da revisionare</a>
+            <a href="{{route('revisor.show')}}" class="mt-3 mb-3 buttonCustomPrimary text-decoration-none">{{__('ui.Articoli_revi')}}</a>
         </div>
     </div>
     @if($article_to_check)
@@ -70,9 +70,9 @@
         <div class="row justify-content-center align-items-center text-center">
             <div class="col-12">
                 <h1 class="display-4">
-                    Nessun articolo da revisionare
+                    {{__('ui.Nessun_articolo')}}
                 </h1>
-                <a href="{{route('homepage')}}" class="mt-5 buttonCustomPrimary text-decoration-none">Torna alla homepage</a>
+                <a href="{{route('homepage')}}" class="mt-5 buttonCustomPrimary text-decoration-none"> {{__('ui.Homepage')}}</a>
             </div>
         </div>
     @endif

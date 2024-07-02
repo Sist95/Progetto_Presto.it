@@ -1,7 +1,7 @@
 <?php
 
 return[
-    "hello"=>"¡Una ola de anuncios todos para TI!",
+    "hello"=>"Una onda de anuncios para ti.",
     "annunci"=>"Anuncios",
     "area_revisore"=>"Área de revisor",
     "Categorie"=>"Categorías",
@@ -10,7 +10,7 @@ return[
     "Accedi"=>"Acceso",
     "Registrati"=>"Regístrate ahora",
     "Log out"=>"Cerrar sesión",
-    "Ciao"=>"¡Hola!, ",
+    "Ciao"=>"Hola, ",
     "Cerca"=>"Busca",
     "Abbigliamento"=>"Ropa",
     "Accessori"=>"Accesorios",
@@ -22,4 +22,20 @@ return[
     "Motori"=>"Motores",
     "Salute e bellezza"=>"Saludo y belleza",
     "Sport"=>"Deporte",
+    "Annunci_non" => "Todavía no hay anuncios.",
+    "Prezzo" => "Precio",
+    "Mostra" => "Espectáculo",
+    "Revisore" => "Conviértete en revisor",
+    "I_nostri"=> "Nuestros anuncios",
+    "Dett_articolo" => "Detalle del artículo:",
+    "Titolo"=> "Título",
+    "Descrizione"=>"Descripción",
+    "Ris_ricerca"=> "Resultado de búsqueda:",
+    "No_ricerca"=> "Ningún anuncio coincide con su búsqueda.",
+    "Pubblica_articolo"=> "Publicar un artículo",
+    "Crea" => "Crear",
+    "Revisor_dash" => "Panel de control del auditor",
+    "Articoli_revi" => "Artículos para revisar",
+    "Nessun_articolo" => "No hay elementos para revisar",
+    "Homepage"=>"Volver a la página de inicio",
 ];
