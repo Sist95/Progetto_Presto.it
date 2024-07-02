@@ -16,7 +16,8 @@ class Image extends Model
         'path'
     ];
 
-    public function article() : BelongsTo{
-        return $this-> belongsTo(Article::class);
+    public function article() : BelongsTo
+    {
+        return $this->belongsTo(Article::class);
     }
 }

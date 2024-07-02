@@ -56,7 +56,8 @@ class Article extends Model
         ];
     }
 
-    public function images(): HasMany{
-        return $this->hasMany(image::class);
+    public function images(): HasMany
+    {
+        return $this->hasMany(Image::class);
     }
 }

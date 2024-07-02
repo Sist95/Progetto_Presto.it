@@ -51,11 +51,11 @@ class CreateArticleForm extends Component
             }
         }
 
-        session()->flash('success', 'Articolo creato correttamente');
+        session()->flash('success', 'Annuncio creato correttamente');
         $this->cleanForm();
 
         $this->reset();
-        session()->flash('success','Articolo creato correttamente');
+        session()->flash('success','Annuncio creato correttamente');
 
     }
 
@@ -80,7 +80,7 @@ class CreateArticleForm extends Component
     public function removeImage($key)
     {
         if (in_array($key, array_keys($this->images))){
-            unset($this->this->images[$key]);
+            unset($this->images[$key]);
         }
     }
 
