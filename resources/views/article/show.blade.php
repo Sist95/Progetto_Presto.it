@@ -8,29 +8,31 @@
     <div class="container cardMorph-inner mt-4">
     <div class="row justify-content-center py-4">
         <div class="col-12 col-lg-6">
-          <div id="carouselExample" class="carousel slide carousel-custom ms-2">
+          @if($article->images->count() > 0)  
+           <div id="carouselExample" class="carousel slide carousel-custom ms-2">
                 <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="https://picsum.photos/500" class="d-block w-100 rounded-4" alt="Immagine Casuale">
+                  @foreach($article->images as $key => $image)  
+                    <div class="carousel-item @if($loop->first) active @endif">
+                        <img src="{{Storage::url($image->path)}}" class="d-block w-100 rounded-4" alt="Immagine {{$key + 1}} dell'articolo {{$article->title}}">
                     </div>
-                    <div class="carousel-item">
-                        <img src="https://picsum.photos/500" class="d-block w-100 rounded-4" alt="Immagine Casuale">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="https://picsum.photos/500" class="d-block w-100 rounded-4" alt="Immagine Casuale">
-                    </div>
+                  @endforeach  
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                 @if($article->images->count() > 1)
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
                     data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                 </button>
+                 <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
                     data-bs-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
-                </button>
+                 </button>
+                @endif
             </div>
+                @else
+                 <img src="https://picsum.photos/500" alt="Nessuna foto inserita dall'utente">
+                @endif 
         </div>
 
     <div class="col-12 col-md-6 mb-3 d-flex flex-column justify-content-center align-items-center">
