@@ -59,4 +59,5 @@ return[
     "Revisiona"=>"Revisiona",
     "Lista_annunci"=>"Lista degli annunci da revisionare",
     "Accetta_articolo" => "Hai accettato l'articolo",
+    "Diventa_revisore" => "Complimenti hai richiesto di diventare revisore",
 ];

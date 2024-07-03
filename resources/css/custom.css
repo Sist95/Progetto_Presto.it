@@ -31,7 +31,7 @@
 body {
     margin-top: 14vh;
     background-color: var(--tertiary);
-    background-image: url("/public/img/Sfondo.jpg");
+    /* background-image: url("/public/img/Sfondo.jpg"); */
     background-size: contain;
     font-family: "urbanist";
 }
@@ -62,8 +62,6 @@ body {
 }
 
 .footerMorph-inner-up {
-    margin-top: 30vh;
-    height: 50vh;
     background: rgba(129, 252, 250, 0.5);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -73,7 +71,6 @@ body {
 }
 
 .footerMorph-inner-down {
-    margin-top: -21vh;
     background: rgba(16, 232, 203, 0.7);
     border-bottom-right-radius: 16px;
     border-bottom-left-radius: 16px;
