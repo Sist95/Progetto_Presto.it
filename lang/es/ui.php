@@ -57,4 +57,6 @@ return[
     "Rifiuta"=>"Rechazar",
     "Azioni"=>"Comportamiento",
     "Revisiona"=>"Revisar",
+    "Lista_annunci"=>"Lista de anuncios para revisar",
+    "Accetta_articolo" => "Has aceptado el artículo",
 ];

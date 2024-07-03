@@ -57,4 +57,6 @@ return[
      "Rifiuta"=>"Refuse",
      "Azioni"=>"Actions",
      "Revisiona"=>"Review",
+     "Lista_annunci"=>"List of ads to review",
+     "Accetta_articolo" => "You have accepted the article",
 ];

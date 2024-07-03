@@ -57,4 +57,6 @@ return[
     "Rifiuta"=>"Rifiuta",
     "Azioni"=>"Azioni",
     "Revisiona"=>"Revisiona",
+    "Lista_annunci"=>"Lista degli annunci da revisionare",
+    "Accetta_articolo" => "Hai accettato l'articolo",
 ];

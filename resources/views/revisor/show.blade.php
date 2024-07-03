@@ -30,7 +30,7 @@
             </div>
         @endif
         <div class="col-12">
-            <h1 class="display-4 mb-4">Lista degli annunci da revisionare</h1>
+            <h1 class="display-4 mb-4">{{__('ui.Lista_annunci')}}</h1>
         </div>
         <div class="container mt-4">
             <div class="row">
