@@ -51,7 +51,7 @@ body {
     backdrop-filter: blur(9px);
     -webkit-backdrop-filter: blur(9px);
     border: 1px solid rgba(129, 252, 250, 0.3); */
-    
+
     background: rgba(255, 255, 255, 0.7);
     border-radius: 10px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -73,7 +73,7 @@ body {
 }
 
 .footerMorph-inner-down {
-    margin-top: -18vh;
+    margin-top: -21vh;
     background: rgba(16, 232, 203, 0.7);
     border-bottom-right-radius: 16px;
     border-bottom-left-radius: 16px;
