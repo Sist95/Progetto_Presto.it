@@ -59,4 +59,5 @@ return[
     "Revisiona"=>"Revisar",
     "Lista_annunci"=>"Lista de anuncios para revisar",
     "Accetta_articolo" => "Has aceptado el artículo",
+    "Categoria_1"=>"Electronicas",
 ];
