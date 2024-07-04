@@ -4,7 +4,7 @@
     <div class="card-body"><h3>{{Str::limit($article->title, 25)}}</h3>
         <h5 class="card-subtitle text-body-secondary">{{__('ui.Prezzo')}}: {{$article->price}} €</h5>
         <div class="d-flex flex-column justify-content-evenly align-items-center mt-3">
-            <a href="{{route('article.show',compact('article'))}}" class="buttonHero text-decoration-none">
+            <a href="{{route('article.show',compact('article'))}}" class="text-decoration-none">
               <button class="buttonCustomPrimary">
                 {{__('ui.Mostra')}}
               </button>
