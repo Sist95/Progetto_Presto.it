@@ -59,4 +59,9 @@ return[
      "Revisiona"=>"Review",
      "Lista_annunci"=>"List of ads to review",
      "Accetta_articolo" => "You have accepted the article",
+     "Diventa_revisore" => "Please note that you are requested to become a reviewer",
+     "Area_riservata" => "Reserved area for reviewers",
+     "Creazione_articolo" => "Ad created successfully",
+     // MESSAGGI DI VALIDAZIONE
+    "Titolo_richiesto" => "Title is required.",
 ];

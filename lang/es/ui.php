@@ -59,5 +59,10 @@ return[
     "Revisiona"=>"Revisar",
     "Lista_annunci"=>"Lista de anuncios para revisar",
     "Accetta_articolo" => "Has aceptado el artículo",
+    "Diventa_revisore" => "Felicitaciones a todos los ricos de querer repasar",
     "Categoria_1"=>"Electronicas",
+    "Area_riservata" => "Área reservada para revisores",
+    "Creazione_articolo" => "Anuncio creado exitosamente",
+    // MESSAGGI DI VALIDAZIONE
+    "Titolo_richiesto" => "Se requiere título.",
 ];
