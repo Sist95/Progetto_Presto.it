@@ -20,6 +20,6 @@ class IsRevisor
             return $next($request);
         }
 
-        return redirect()->route('homepage')->with('errorMessage', 'Area riservata ai revisori');
+        return redirect()->route('homepage')->with('errorMessage', __('ui.Area_riservata'));
     }
 }

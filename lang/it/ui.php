@@ -60,4 +60,8 @@ return[
     "Lista_annunci"=>"Lista degli annunci da revisionare",
     "Accetta_articolo" => "Hai accettato l'articolo",
     "Diventa_revisore" => "Complimenti hai richiesto di diventare revisore",
+    "Area_riservata" => "Area riservata ai revisori",
+    "Creazione_articolo" => "Annuncio creato correttamente",
+    // MESSAGGI DI VALIDAZIONE
+    "Titolo_richiesto" => "Il titolo è richiesto.",
 ];
