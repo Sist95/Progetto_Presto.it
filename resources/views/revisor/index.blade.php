@@ -14,9 +14,9 @@
         <div class="col-12">
             <h1 class="display-4 mt-4">{{ __('ui.Revisor_dash') }}</h1>
         </div>
-        <div class="container">
+        <div class="container d-flex align-items-center justify-content-center">
             <a href="{{ route('revisor.show') }}"
-                class="mt-3 mb-3 buttonCustomPrimary text-decoration-none">{{ __('ui.Articoli_revi') }}</a>
+                class="mt-3 mb-3 buttonCustomPrimary d-block text-decoration-none">{{ __('ui.Articoli_revi') }}</a>
         </div>
     </div>
     @if ($article_to_check)
