@@ -8,14 +8,14 @@
   <div class="container cardMorph-inner mt-4">
   <div class="row justify-content-center py-4">
       <div class="col-12 col-lg-6">
-        @if($article->images->count() > 0)  
+        @if($article->images->count() > 0)
          <div id="carouselExample" class="carousel slide carousel-custom ms-2">
               <div class="carousel-inner">
-                @foreach($article->images as $key => $image)  
+                @foreach($article->images as $key => $image)
                   <div class="carousel-item @if($loop->first) active @endif">
                       <img src="{{ $image->getUrl(400, 400) }}" class="d-block w-100 rounded-4" alt="Immagine {{$key + 1}} dell'articolo {{$article->title}}">
                   </div>
-                @endforeach  
+                @endforeach
               </div>
                @if($article->images->count() > 1)
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
@@ -32,7 +32,7 @@
           </div>
               @else
                <img src="https://picsum.photos/500" alt="Nessuna foto inserita dall'utente" class="rounded-4">
-              @endif 
+              @endif
       </div>
 
   <div class="col-12 col-md-6 mb-3 d-flex flex-column justify-content-center align-items-center">
@@ -46,4 +46,7 @@
 </div>
 </div>
 </x-layout>
+
+
+
 
