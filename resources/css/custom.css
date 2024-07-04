@@ -14,9 +14,10 @@
 
 :root {
     --primary: #00B4D8;
-    --secondary: #81FCFA;
-    --tertiary: #EBEFEF;
+    --secondary: #90E0EF;
+    --tertiary: #CAF0F8;
     --accent: #E9A740;
+    --fontAccent: rgba(3, 4, 94);
     --white: #EEF5FF;
 }
 
@@ -36,11 +37,21 @@
     background-color: var(--accent);
 }
 
+.fontAccent {
+    color: var(--fontAccent);
+}
+
+.borderPreview {
+    border-style: dashed;
+    border-color: var(--primary);
+}
+
 body {
     margin-top: 14vh;
     background-color: var(--tertiary);
-    background-image: url("/public/img/7368190.jpg");
-    background-size: contain;
+    background-image: url("/public/img/sfondo_presto_modified.png");
+    background-size: cover;
+    /* background-repeat: no-repeat; */
     font-family: "urbanist";
 }
 

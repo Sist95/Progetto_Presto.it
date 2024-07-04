@@ -10,18 +10,18 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link @if(Route::is('homepage')) active @endif" aria-current="page" href="{{route('homepage')}}">Presto.it</a>
+          <a class="nav-link fw-semibold @if(Route::is('homepage')) active @endif" aria-current="page" href="{{route('homepage')}}">Presto.it</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="{{route('article.index')}}">{{__('ui.annunci')}}</a>
+          <a class="nav-link fw-semibold" href="{{route('article.index')}}">{{__('ui.annunci')}}</a>
         </li>
         <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a class="nav-link dropdown-toggle fw-semibold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               {{__('ui.Categorie')}}
             </a>
             <ul class="dropdown-menu scrollMorph-inner">
             @foreach ($categories as $category )
-                <li><a class="dropdown-item text-capitalize" href="{{route('byCategory', ['category'=>$category])}}">{{__("ui.$category->name")}}</a></li>
+                <li><a class="dropdown-item text-capitalize fw-semibold" href="{{route('byCategory', ['category'=>$category])}}">{{__("ui.$category->name")}}</a></li>
                 @if(!$loop->last)
                 <hr class="dropdown-divider">
                 @endif
@@ -30,7 +30,7 @@
           </li>
         <li class="nav-item dropdown">
           @auth
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a class="nav-link dropdown-toggle fw-semibold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             {{__('ui.Ciao')}}{{auth()->user()->name}}
           </a>
           <ul class="dropdown-menu scrollMorph-inner">
@@ -58,11 +58,11 @@
           </ul>
 
           @else
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">{{__('ui.Ospite')}}</a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item d-flex align-items-center" href="{{route('login')}}">{{__('ui.Accedi')}}</a></li>
+          <a class="nav-link dropdown-toggle fw-semibold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">{{__('ui.Ospite')}}</a>
+          <ul class="dropdown-menu scrollMorph-inner">
+            <li><a class="dropdown-item d-flex align-items-center fw-semibold" href="{{route('login')}}">{{__('ui.Accedi')}}</a></li>
             <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item d-flex align-items-center" href="{{route('register')}}">{{__('ui.Registrati')}}</a></li>
+            <li><a class="dropdown-item d-flex align-items-center fw-semibold" href="{{route('register')}}">{{__('ui.Registrati')}}</a></li>
           </ul>
           @endauth
           </li>
