@@ -3,7 +3,7 @@
 return[
     "Nome"=>"Nome",
     "Cognome"=>"Cognome",
-    "hello"=>"Un ondata di annunci tutti per te.",
+    "hello"=>"Un'ondata di annunci.",
     "annunci"=>"Annunci",
     "area_revisore"=>"Area revisore",
     "Categorie"=>"Categorie",

@@ -3,7 +3,7 @@
 return[
     "Nome"=>"Name",
     "Cognome"=>"Surname",
-    "hello"=>"A wave of ads for you.",
+    "hello"=>"A wave of announcements",
     "annunci"=>"Ads",
     "area_revisore"=>"Reviewer area",
     "Categorie"=>"Categories",
