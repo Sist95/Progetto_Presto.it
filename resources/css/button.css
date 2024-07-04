@@ -1,126 +1,3 @@
-
-.buttonCustomSecondary {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-  background: linear-gradient(45deg, #858a8e, #6c757d);
-  border: 2px solid #858a8e;
-  border-radius: 10px;
-  transition: background-color 0.3s ease, box-shadow 0.3s ease,
-    text-shadow 0.3s ease;
-  padding: 10px 20px;
-  color: white;
-  font-weight: bold;
-  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Text drop shadow */
-  display: inline-block;
-}
-
-.buttonCustomSecondary:hover {
-  background-color: #808991;
-  box-shadow: 0 0 12px #586066;
-  text-shadow: 0 0 4px #9ea8b1; /* Hover text shadow */
-  border-color: #6c757d;
-}
-
-.buttonCustomSuccess {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-  background: linear-gradient(45deg, #379569, #198754);
-  border: 2px solid #198754;
-  border-radius: 10px;
-  transition: background-color 0.3s ease, box-shadow 0.3s ease,
-    text-shadow 0.3s ease;
-  padding: 10px 20px;
-  color: white;
-  font-weight: bold;
-  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Text drop shadow */
-  display: inline-block;
-}
-
-.buttonCustomSuccess:hover {
-  background-color: #49a178;
-  box-shadow: 0 0 12px #005930;
-  text-shadow: 0 0 4px #55bb8b; /* Hover text shadow */
-  border-color: #198754;
-}
-
-.buttonCustomDanger {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-  background: linear-gradient(45deg, #e14e5c, #dc3545);
-  border: 2px solid #dc3545;
-  border-radius: 10px;
-  transition: background-color 0.3s ease, box-shadow 0.3s ease,
-    text-shadow 0.3s ease;
-  padding: 10px 20px;
-  color: white;
-  font-weight: bold;
-  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Text drop shadow */
-  display: inline-block;
-}
-
-.buttonCustomDanger:hover {
-  background-color: #f43b4d;
-  box-shadow: 0 0 12px #841a24;
-  text-shadow: 0 0 4px #ff5465; /* Hover text shadow */
-  border-color: #dc3545;
-}
-
-
-.buttonCustomLight {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-  background: linear-gradient(45deg, #ffffff, #f8f9fa);
-  border: 2px solid #f8f9fa;
-  border-radius: 10px;
-  transition: background-color 0.3s ease, box-shadow 0.3s ease,
-    text-shadow 0.3s ease;
-  padding: 10px 20px;
-  color: #09090b;
-  font-weight: bold;
-  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Text drop shadow */
-  display: inline-block;
-}
-
-.buttonCustomLight:hover {
-  background-color: #c6c7c8;
-  box-shadow: 0 0 12px #686868;
-  text-shadow: 0 0 4px #f8f9fa; /* Hover text shadow */
-  border-color: #e6e6e7;
-}
-
-.buttonCustomDark {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-  background: linear-gradient(45deg, #292e33, #212529);
-  border: 2px solid #212529;
-  border-radius: 10px;
-  transition: background-color 0.3s ease, box-shadow 0.3s ease,
-    text-shadow 0.3s ease;
-  padding: 10px 20px;
-  color: white;
-  font-weight: bold;
-  text-shadow: 2px 2px 5px rgba(153, 153, 153, 0.3); /* Text drop shadow */
-  display: inline-block;
-}
-
-.buttonCustomDark:hover {
-  background-color: #424649;
-  box-shadow: 0 0 12px #686868;
-  text-shadow: 0 0 4px #848484; /* Hover text shadow */
-  border-color: #373b3e;
-}
-
-
 .alert-success{
     width: 100%;
     padding: 12px;
@@ -147,10 +24,7 @@
   border-radius: 8px;
   border: 1px solid #EF665B;
   box-shadow: 0px 0px 8px 2px #EF665B;
-
-
  }
-
 
  .content {
   max-width: 600px;
@@ -266,7 +140,6 @@ box-shadow: 0px 7px 10px 4px #c0d3e9;
     }
   }
 
-
 .waves {
   position: absolute;
   bottom: 0;
@@ -311,31 +184,7 @@ box-shadow: 0px 7px 10px 4px #c0d3e9;
   }
 }
 
-/* .buttonRevisor{
-    display: flex;
-    width: 40vh;
-    margin-left: -20%;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    background: linear-gradient(45deg, #3284ff, #0d6efd);
-    border: 2px solid #3284ff;
-    border-radius: 10px;
-    transition: background-color 0.3s ease, box-shadow 0.3s ease,
-      text-shadow 0.3s ease;
-    padding: 10px 20px;
-    color: white;
-    font-weight: bold;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
-    display: inline-block;
-  }
-  
-  .buttonRevisor:hover {
-    background-color: #2f7ef4;
-    box-shadow: 0 0 12px #002a6a;
-    text-shadow: 0 0 4px #488ef8;
-    border-color: #0d6efd;
-  } */
+  /* Button primary */
 
   .buttonCustomPrimary {
     position: relative;
@@ -356,8 +205,6 @@ box-shadow: 0px 7px 10px 4px #c0d3e9;
     overflow: hidden;
     font-size: 15px;
   }
-  
-
   
   .buttonCustomPrimary:hover {
     transform: scale(1.05);
@@ -403,7 +250,7 @@ box-shadow: 0px 7px 10px 4px #c0d3e9;
   }
 
 
-  /* Secondo bottone card */
+  /* Button info */
 
   .buttonCustomInfo {
     position: relative;
@@ -424,8 +271,6 @@ box-shadow: 0px 7px 10px 4px #c0d3e9;
     overflow: hidden;
     font-size: 15px;
   }
-  
-
   
   .buttonCustomInfo:hover {
     transform: scale(1.05);
@@ -471,7 +316,7 @@ box-shadow: 0px 7px 10px 4px #c0d3e9;
   }
 
 
-  /* Bottone Navbar */
+  /* Button warning */
 
   .buttonCustomWarning{
     position: relative;
@@ -492,8 +337,6 @@ box-shadow: 0px 7px 10px 4px #c0d3e9;
     overflow: hidden;
     font-size: 15px;
   }
-  
-
   
   .buttonCustomWarning:hover {
     transform: scale(1.05);
@@ -537,5 +380,328 @@ box-shadow: 0px 7px 10px 4px #c0d3e9;
       left: 100%;
     }
   }
+
+  /* Button success */
   
+  .buttonCustomSuccess{
+    position: relative;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    padding-block: 0.5rem;
+    padding-inline: 1.25rem;
+    background-color: #198754;
+    border-radius: 9999px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffff;
+    gap: 10px;
+    font-weight: bold;
+    border: 3px solid #ffffff4d;
+    outline: none;
+    overflow: hidden;
+    font-size: 15px;
+  }
   
+  .buttonCustomSuccess:hover {
+    transform: scale(1.05);
+    border-color: #fff9;
+  }
+  
+  .buttonCustomSuccess:hover .icon {
+    transform: translate(4px);
+  }
+  
+  .buttonCustomSuccess:hover::before {
+    animation: shine 1.5s ease-out infinite;
+  }
+  
+  .buttonCustomSuccess::before {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 100%;
+    background-image: linear-gradient(
+      120deg,
+      rgba(255, 255, 255, 0) 30%,
+      rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0) 70%
+    );
+    top: 0;
+    left: -100px;
+    opacity: 0.6;
+  }
+  
+  @keyframes shine {
+    0% {
+      left: -100px;
+    }
+  
+    60% {
+      left: 100%;
+    }
+  
+    to {
+      left: 100%;
+    }
+  }
+
+/* Button danger */
+  
+.buttonCustomDanger{
+  position: relative;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+  padding-block: 0.5rem;
+  padding-inline: 1.25rem;
+  background-color: #dc3545;
+  border-radius: 9999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffff;
+  gap: 10px;
+  font-weight: bold;
+  border: 3px solid #ffffff4d;
+  outline: none;
+  overflow: hidden;
+  font-size: 15px;
+}
+
+.buttonCustomDanger:hover {
+  transform: scale(1.05);
+  border-color: #fff9;
+}
+
+.buttonCustomDanger:hover .icon {
+  transform: translate(4px);
+}
+
+.buttonCustomDanger:hover::before {
+  animation: shine 1.5s ease-out infinite;
+}
+
+.buttonCustomDanger::before {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 100%;
+  background-image: linear-gradient(
+    120deg,
+    rgba(255, 255, 255, 0) 30%,
+    rgba(255, 255, 255, 0.8),
+    rgba(255, 255, 255, 0) 70%
+  );
+  top: 0;
+  left: -100px;
+  opacity: 0.6;
+}
+
+@keyframes shine {
+  0% {
+    left: -100px;
+  }
+
+  60% {
+    left: 100%;
+  }
+
+  to {
+    left: 100%;
+  }
+}
+
+/* Button secondary */
+  
+.buttonCustomSecondary{
+  position: relative;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+  padding-block: 0.5rem;
+  padding-inline: 1.25rem;
+  background-color: #6c757d;
+  border-radius: 9999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffff;
+  gap: 10px;
+  font-weight: bold;
+  border: 3px solid #ffffff4d;
+  outline: none;
+  overflow: hidden;
+  font-size: 15px;
+}
+
+.buttonCustomSecondary:hover {
+  transform: scale(1.05);
+  border-color: #fff9;
+}
+
+.buttonCustomSecondary:hover .icon {
+  transform: translate(4px);
+}
+
+.buttonCustomSecondary:hover::before {
+  animation: shine 1.5s ease-out infinite;
+}
+
+.buttonCustomSecondary::before {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 100%;
+  background-image: linear-gradient(
+    120deg,
+    rgba(255, 255, 255, 0) 30%,
+    rgba(255, 255, 255, 0.8),
+    rgba(255, 255, 255, 0) 70%
+  );
+  top: 0;
+  left: -100px;
+  opacity: 0.6;
+}
+
+@keyframes shine {
+  0% {
+    left: -100px;
+  }
+
+  60% {
+    left: 100%;
+  }
+
+  to {
+    left: 100%;
+  }
+}
+
+/* Button light */
+  
+.buttonCustomLight{
+  position: relative;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+  padding-block: 0.5rem;
+  padding-inline: 1.25rem;
+  background-color: #f8f9fa;
+  border-radius: 9999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #09090b;
+  gap: 10px;
+  font-weight: bold;
+  border: 3px solid #ffffff4d;
+  outline: none;
+  overflow: hidden;
+  font-size: 15px;
+}
+
+.buttonCustomLight:hover {
+  transform: scale(1.05);
+  border-color: #fff9;
+}
+
+.buttonCustomLight:hover .icon {
+  transform: translate(4px);
+}
+
+.buttonCustomLight:hover::before {
+  animation: shine 1.5s ease-out infinite;
+}
+
+.buttonCustomLight::before {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 100%;
+  background-image: linear-gradient(
+    120deg,
+    rgba(255, 255, 255, 0) 30%,
+    rgba(255, 255, 255, 0.8),
+    rgba(255, 255, 255, 0) 70%
+  );
+  top: 0;
+  left: -100px;
+  opacity: 0.6;
+}
+
+@keyframes shine {
+  0% {
+    left: -100px;
+  }
+
+  60% {
+    left: 100%;
+  }
+
+  to {
+    left: 100%;
+  }
+}
+
+/* Button dark */
+  
+.buttonCustomDark{
+  position: relative;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+  padding-block: 0.5rem;
+  padding-inline: 1.25rem;
+  background-color: #212529;
+  border-radius: 9999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffff;
+  gap: 10px;
+  font-weight: bold;
+  border: 3px solid #212529;
+  outline: none;
+  overflow: hidden;
+  font-size: 15px;
+}
+
+.buttonCustomDark:hover {
+  transform: scale(1.05);
+  border-color: #fff9;
+}
+
+.buttonCustomDark:hover .icon {
+  transform: translate(4px);
+}
+
+.buttonCustomDark:hover::before {
+  animation: shine 1.5s ease-out infinite;
+}
+
+.buttonCustomDark::before {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 100%;
+  background-image: linear-gradient(
+    120deg,
+    rgba(255, 255, 255, 0) 30%,
+    rgba(255, 255, 255, 0.8),
+    rgba(255, 255, 255, 0) 70%
+  );
+  top: 0;
+  left: -100px;
+  opacity: 0.6;
+}
+
+@keyframes shine {
+  0% {
+    left: -100px;
+  }
+
+  60% {
+    left: 100%;
+  }
+
+  to {
+    left: 100%;
+  }
+}
