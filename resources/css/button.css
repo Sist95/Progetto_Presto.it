@@ -392,7 +392,7 @@ box-shadow: 0px 7px 10px 4px #c0d3e9;
   }
 }
 
-.buttonRevisor{
+/* .buttonRevisor{
     display: flex;
     width: 40vh;
     margin-left: -20%;
@@ -407,13 +407,13 @@ box-shadow: 0px 7px 10px 4px #c0d3e9;
     padding: 10px 20px;
     color: white;
     font-weight: bold;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Text drop shadow */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
     display: inline-block;
   }
   
   .buttonRevisor:hover {
     background-color: #2f7ef4;
     box-shadow: 0 0 12px #002a6a;
-    text-shadow: 0 0 4px #488ef8; /* Hover text shadow */
+    text-shadow: 0 0 4px #488ef8;
     border-color: #0d6efd;
-  }
+  } */
