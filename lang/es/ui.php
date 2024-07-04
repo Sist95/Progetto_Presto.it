@@ -27,7 +27,7 @@ return[
     "Sport"=>"Deporte",
     "Annunci_non" => "Todavía no hay anuncios.",
     "Prezzo" => "Precio",
-    "Mostra" => "Espectáculo",
+    "Mostra" => "Muestra",
     "Revisore" => "Conviértete en revisor",
     "I_nostri"=> "Nuestros anuncios",
     "Dett_articolo" => "Detalle del artículo:",

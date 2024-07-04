@@ -4,8 +4,16 @@
     padding: 0;
 } */
 
-:root {
+/* :root {
     --primary: #10E8CB;
+    --secondary: #81FCFA;
+    --tertiary: #EBEFEF;
+    --accent: #E9A740;
+    --white: #EEF5FF;
+} */
+
+:root {
+    --primary: #00B4D8;
     --secondary: #81FCFA;
     --tertiary: #EBEFEF;
     --accent: #E9A740;
@@ -31,22 +39,22 @@
 body {
     margin-top: 14vh;
     background-color: var(--tertiary);
-    /* background-image: url("/public/img/Sfondo.jpg"); */
+    background-image: url("/public/img/7368190.jpg");
     background-size: contain;
     font-family: "urbanist";
 }
 
 
 .navMorph-inner {
-    background: rgba(16, 232, 203, 0.8);
+    background: rgba(0, 180, 216, 0.8);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(3px);
     -webkit-backdrop-filter: blur(3px);
     border: 1px solid rgba(16, 232, 203, 0.3);
-    -webkit-box-shadow: 0px 7px 10px 6px #000000;
+    /* -webkit-box-shadow: 0px 7px 10px 6px #000000;
 -moz-box-shadow: 0px 7px 10px 6px #000000;
 -o-box-shadow: 0px 7px 10px 6px #000000;
-box-shadow: 0px 7px 10px 4px #77edd8;
+box-shadow: 0px 7px 10px 4px #77edd8; */
 }
 
 .scrollMorph-inner{
@@ -66,7 +74,7 @@ box-shadow: 0px 7px 10px 4px #77edd8;
 }
 
 .footerMorph-inner-up {
-    background: rgba(129, 252, 250, 0.5);
+    background: rgba(144, 224, 239, 0.5);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(3px);
@@ -75,7 +83,7 @@ box-shadow: 0px 7px 10px 4px #77edd8;
 }
 
 .footerMorph-inner-down {
-    background: rgba(16, 232, 203, 0.7);
+    background: rgba(0, 180, 216, 0.7);
     border-bottom-right-radius: 16px;
     border-bottom-left-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
