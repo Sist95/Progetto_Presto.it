@@ -47,8 +47,7 @@
 }
 
 body {
-    margin-top: 14vh;
-    background-color: var(--tertiary);
+    margin-top: 18vh;
     background-image: url("/public/img/sfondo_presto_modified.png");
     background-size: cover;
     /* background-repeat: no-repeat; */
@@ -129,12 +128,6 @@ box-shadow: 0px 7px 10px 4px #77edd8; */
     -webkit-backdrop-filter: blur(10px);
     border: 1px solid rgba(255, 255, 255, 0.3);
 }
-
-/* Transition forse un pò fastidiosa */
-
-/* .cardMorph:hover {
-    transform: scale(1.04) rotate(1deg);
-} */
 
 .img-preview{
     background-position: center;
