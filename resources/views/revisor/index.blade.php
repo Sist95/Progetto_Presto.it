@@ -95,8 +95,10 @@
         <div class="row justify-content-center align-items-center text-center">
             <div class="col-12">
                 <h1 class="display-4">{{ __('ui.Nessun_articolo') }}</h1>
-                <a href="{{ route('homepage') }}"
-                    class="mt-5 buttonCustomPrimary text-decoration-none">{{ __('ui.Homepage') }}</a>
+                <div class="container d-flex align-items-center justify-content-center">
+                    <a href="{{ route('homepage') }}"
+                        class="mt-5 buttonCustomPrimary text-decoration-none d-block">{{ __('ui.Homepage') }}</a>
+                </div>
             </div>
         </div>
     @endif

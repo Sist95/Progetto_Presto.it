@@ -37,7 +37,7 @@
             <!-- <li><a class="dropdown-item" href="#">Dashboard</a></li>
             <li><hr class="dropdown-divider"></li> -->
             @if(Auth::user()->is_revisor)
-              <li><a class="dropdown-item" href="{{route('revisor.index')}}">{{__('ui.area_revisore')}}
+              <li><a class="dropdown-item fw-semibold" href="{{route('revisor.index')}}">{{__('ui.area_revisore')}}
                       <span
                       class="position-absolute top-20 start-100 translate-middle badge rounded-pill bg-danger">
                       {{\App\Models\Article::toBeRevisedCount()}}
@@ -46,9 +46,9 @@
               </li>
               <li><hr class="dropdown-divider"></li>
             @endif
-            <li><a class="dropdown-item" href="{{route('create.article')}}">{{__('ui.Inserisci annuncio')}}</a></li>
+            <li><a class="dropdown-item fw-semibold" href="{{route('create.article')}}">{{__('ui.Inserisci annuncio')}}</a></li>
             <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#" onclick="
+            <li><a class="dropdown-item fw-semibold" href="#" onclick="
             event.preventDefault();
             getElementById('form-logout').submit();
             ">{{__('ui.Log out')}}</a></li>
