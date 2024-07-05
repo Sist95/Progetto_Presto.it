@@ -29,7 +29,7 @@
 
             @endauth
 
-            {{-- <div class="waves"></div> --}}
+            <div class="waves"></div>
         </section>
     <div class="container-fluid text-center">
         <div class="row justify-content-center align-items-center">
