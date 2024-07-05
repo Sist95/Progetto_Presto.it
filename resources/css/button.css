@@ -40,6 +40,7 @@
   height: 40vh;
   margin-top: -17px;
   display: flex;
+  justify-content: center;
   align-items: center;
   overflow: hidden;
   -webkit-box-shadow: 0px 7px 10px 6px #efdede;
@@ -61,7 +62,7 @@ box-shadow: 0px 7px 10px 4px #c0d3e9;
   position: relative;
   z-index: 1;
   font-size: 2.5rem;
-  width: 70%;
+  /* width: 70%; */
   padding-right: 20px;
   line-height: 1;
   color: rgba(3, 4, 94);
@@ -71,7 +72,7 @@ box-shadow: 0px 7px 10px 4px #c0d3e9;
 .hero .buttonHero{
     position: relative;
     z-index: 1;
-    width: 20%;
+    /* width: 30%; */
     height: 50px;
     transition: all 0.3s ease-in-out;
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
@@ -205,20 +206,20 @@ box-shadow: 0px 7px 10px 4px #c0d3e9;
     overflow: hidden;
     font-size: 15px;
   }
-  
+
   .buttonCustomPrimary:hover {
     transform: scale(1.05);
     border-color: #fff9;
   }
-  
+
   .buttonCustomPrimary:hover .icon {
     transform: translate(4px);
   }
-  
+
   .buttonCustomPrimary:hover::before {
     animation: shine 1.5s ease-out infinite;
   }
-  
+
   .buttonCustomPrimary::before {
     content: "";
     position: absolute;
@@ -234,16 +235,16 @@ box-shadow: 0px 7px 10px 4px #c0d3e9;
     left: 100px;
     opacity: 0.6;
   }
-  
+
   @keyframes shine {
     0% {
       left: -100px;
     }
-  
+
     60% {
       left: 100%;
     }
-  
+
     to {
       left: 100%;
     }
@@ -270,20 +271,20 @@ box-shadow: 0px 7px 10px 4px #c0d3e9;
     overflow: hidden;
     font-size: 15px;
   }
-  
+
   .buttonCustomInfo:hover {
     transform: scale(1.05);
     border-color: #fff9;
   }
-  
+
   .buttonCustomInfo:hover .icon {
     transform: translate(4px);
   }
-  
+
   .buttonCustomInfo:hover::before {
     animation: shine 1.5s ease-out infinite;
   }
-  
+
   .buttonCustomInfo::before {
     content: "";
     position: absolute;
@@ -299,16 +300,16 @@ box-shadow: 0px 7px 10px 4px #c0d3e9;
     left: -100px;
     opacity: 0.6;
   }
-  
+
   @keyframes shine {
     0% {
       left: -100px;
     }
-  
+
     60% {
       left: 100%;
     }
-  
+
     to {
       left: 100%;
     }
@@ -336,20 +337,20 @@ box-shadow: 0px 7px 10px 4px #c0d3e9;
     overflow: hidden;
     font-size: 15px;
   }
-  
+
   .buttonCustomWarning:hover {
     transform: scale(1.05);
     border-color: #fff9;
   }
-  
+
   .buttonCustomWarning:hover .icon {
     transform: translate(4px);
   }
-  
+
   .buttonCustomWarning:hover::before {
     animation: shine 1.5s ease-out infinite;
   }
-  
+
   .buttonCustomWarning::before {
     content: "";
     position: absolute;
@@ -365,23 +366,23 @@ box-shadow: 0px 7px 10px 4px #c0d3e9;
     left: -100px;
     opacity: 0.6;
   }
-  
+
   @keyframes shine {
     0% {
       left: -100px;
     }
-  
+
     60% {
       left: 100%;
     }
-  
+
     to {
       left: 100%;
     }
   }
 
   /* Button success */
-  
+
   .buttonCustomSuccess{
     position: relative;
     transition: all 0.3s ease-in-out;
@@ -401,20 +402,20 @@ box-shadow: 0px 7px 10px 4px #c0d3e9;
     overflow: hidden;
     font-size: 15px;
   }
-  
+
   .buttonCustomSuccess:hover {
     transform: scale(1.05);
     border-color: #fff9;
   }
-  
+
   .buttonCustomSuccess:hover .icon {
     transform: translate(4px);
   }
-  
+
   .buttonCustomSuccess:hover::before {
     animation: shine 1.5s ease-out infinite;
   }
-  
+
   .buttonCustomSuccess::before {
     content: "";
     position: absolute;
@@ -430,23 +431,23 @@ box-shadow: 0px 7px 10px 4px #c0d3e9;
     left: -100px;
     opacity: 0.6;
   }
-  
+
   @keyframes shine {
     0% {
       left: -100px;
     }
-  
+
     60% {
       left: 100%;
     }
-  
+
     to {
       left: 100%;
     }
   }
 
 /* Button danger */
-  
+
 .buttonCustomDanger{
   position: relative;
   transition: all 0.3s ease-in-out;
@@ -511,7 +512,7 @@ box-shadow: 0px 7px 10px 4px #c0d3e9;
 }
 
 /* Button secondary */
-  
+
 .buttonCustomSecondary{
   position: relative;
   transition: all 0.3s ease-in-out;
@@ -576,7 +577,7 @@ box-shadow: 0px 7px 10px 4px #c0d3e9;
 }
 
 /* Button light */
-  
+
 .buttonCustomLight{
   position: relative;
   transition: all 0.3s ease-in-out;
@@ -641,7 +642,7 @@ box-shadow: 0px 7px 10px 4px #c0d3e9;
 }
 
 /* Button dark */
-  
+
 .buttonCustomDark{
   position: relative;
   transition: all 0.3s ease-in-out;
