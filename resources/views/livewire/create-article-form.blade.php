@@ -34,7 +34,7 @@
 
     <div class="mb-3">
         <select class="cardInputMorph form-control @error('category') is-invalid @enderror" id="category" wire:model.blur="category">
-            <option label disabled>{{ __('ui.Seleziona_categoria') }}</option>
+            <option label>{{ __('ui.Seleziona_categoria') }}</option>
             @foreach ($categories as $category)
                 <option value="{{ $category->id }}">{{ $category->name }}</option>
             @endforeach
