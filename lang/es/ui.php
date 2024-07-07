@@ -14,6 +14,7 @@ return[
     "Log out"=>"Cerrar sesión",
     "Password"=>"Contraseña",
     "Ciao"=>"Hola, ",
+    
     "Cerca"=>"Busca",
     "Abbigliamento"=>"Ropa",
     "Accessori"=>"Accesorios",
@@ -34,6 +35,7 @@ return[
     "Titolo"=> "Título",
     "Descrizione"=>"Descripción",
     "Ris_ricerca"=> "Resultado de búsqueda: ",
+    "Sel_file"=> "Elija el archivo",
     "No_ricerca"=> "Ningún anuncio coincide con su búsqueda.",
     "Pubblica_articolo"=> "Publicar un artículo",
     "Crea" => "Crear",
