@@ -40,11 +40,25 @@
             <!-- Grid column -->
 
             <!-- Grid column -->
-             <div class="col-md-2">
+            @if(Auth::check() && !Auth::user()->is_revisor) 
+            <div class="col-md-2">
               <h6 class="text-uppercase font-weight-bold">
                 <a href="{{route('become.revisor')}}" class="buttonCustomPrimary text-decoration-none">{{__('ui.Revisore')}}</a>
               </h6>
             </div>
+            @elseif(Auth::check() && Auth::user()->is_revisor)
+            <div class="col-md-2">
+              <h6 class="text-uppercase font-weight-bold">
+                <a href="{{route('revisor.index')}}" class="buttonCustomPrimary text-decoration-none">{{__('ui.Revisor_dash')}}</a>
+              </h6>
+            </div>
+            @elseif(!Auth::check())
+            <div class="col-md-2">
+              <h6 class="text-uppercase font-weight-bold">
+                <a href="{{route('login')}}" class="buttonCustomPrimary text-decoration-none">{{__('ui.Revisore')}}</a>
+              </h6>
+            </div>
+            @endif
             <!-- Grid column -->
           </div>
           <!-- Grid row-->

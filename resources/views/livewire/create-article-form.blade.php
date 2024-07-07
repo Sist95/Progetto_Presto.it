@@ -46,7 +46,7 @@
 
     <div class="mb-3">
         <input type="file" wire:model.live="temporary_images" multiple
-         class="form-control shadow @error('temporary_images.*') is-invalid @enderror" placeholder="Img/">
+         class="form-control cardInputMorph shadow @error('temporary_images.*') is-invalid @enderror" placeholder="Img/">
         @error('temporary_images.*')
             <p class="fst-italic text-danger">{{ $message }}</p>
         @enderror
