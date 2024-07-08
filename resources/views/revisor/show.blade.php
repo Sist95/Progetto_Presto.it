@@ -53,7 +53,7 @@
                                     {{-- <td>{{ Str::limit($article->description, 25) }}</td> --}}
                                     {{-- <td >{{ $article->price }} €</td> --}}
                                     <td class="d-flex justify-content-center">
-                                        <a href="{{ route('articleToCheck', $article) }}"><button type="submit"
+                                        <a href="{{ route('articleToCheck', $article) }}" class="text-decoration-none"><button type="submit"
                                                 class="buttonCustomWarning me-1">{{__('ui.Revisiona')}}</button></a>
 
 

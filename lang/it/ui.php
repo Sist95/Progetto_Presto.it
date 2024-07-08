@@ -3,7 +3,7 @@
 return[
     "Nome"=>"Nome",
     "Cognome"=>"Cognome",
-    "hello"=>"Un ondata di annunci tutti per te.",
+    "hello"=>"Un'ondata di annunci.",
     "annunci"=>"Annunci",
     "area_revisore"=>"Area revisore",
     "Categorie"=>"Categorie",
@@ -34,6 +34,7 @@ return[
     "Titolo"=> "Titolo",
     "Descrizione"=>"Descrizione",
     "Ris_ricerca"=> "Risultato per la ricerca:",
+    "Sel_file"=> "Scegli file",
     "No_ricerca"=> "Nessun annuncio corrisponde alla tua ricerca.",
     "Pubblica_articolo"=> "Pubblica un annuncio",
     "Crea" => "Crea",
@@ -64,4 +65,5 @@ return[
     "Creazione_articolo" => "Annuncio creato correttamente",
     // MESSAGGI DI VALIDAZIONE
     "Titolo_richiesto" => "Il titolo è richiesto.",
+    
 ];

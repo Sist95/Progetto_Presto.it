@@ -3,7 +3,7 @@
 return[
     "Nome"=>"Name",
     "Cognome"=>"Surname",
-    "hello"=>"A wave of ads for you.",
+    "hello"=>"A wave of announcements",
     "annunci"=>"Ads",
     "area_revisore"=>"Reviewer area",
     "Categorie"=>"Categories",
@@ -14,6 +14,7 @@ return[
     "Log out"=>"Log out",
     "Password"=>"Password",
     "Ciao"=>"Hello, ",
+    
     "Cerca"=>"Search",
     "Abbigliamento"=>"Clothing",
     "Accessori"=>"Accessories",
@@ -33,6 +34,7 @@ return[
      "Dett_articolo" => "Article Detail:",
      "Titolo"=> "Title",
      "Descrizione"=>"Description",
+     "Sel_file"=> "Sselected file",
      "Ris_ricerca"=> "Result for your search:",
      "No_ricerca"=> "No ads match your search.",
      "Pubblica_articolo"=> "Publish an article",

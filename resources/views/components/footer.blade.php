@@ -14,7 +14,7 @@
               </h6>
             </div> -->
             <!-- Grid column -->
-  
+
             <!-- Grid column -->
             <!-- <div class="col-md-2">
               <h6 class="text-uppercase font-weight-bold">
@@ -22,7 +22,7 @@
               </h6>
             </div> -->
             <!-- Grid column -->
-  
+
             <!-- Grid column -->
             <!-- <div class="col-md-2">
               <h6 class="text-uppercase font-weight-bold">
@@ -30,7 +30,7 @@
               </h6>
             </div> -->
             <!-- Grid column -->
-  
+
             <!-- Grid column -->
             <!-- <div class="col-md-2">
               <h6 class="text-uppercase font-weight-bold">
@@ -38,21 +38,35 @@
               </h6>
             </div> -->
             <!-- Grid column -->
-  
+
             <!-- Grid column -->
-             <div class="col-md-2">
+            @if(Auth::check() && !Auth::user()->is_revisor) 
+            <div class="col-md-2">
               <h6 class="text-uppercase font-weight-bold">
-                <a href="{{route('become.revisor')}}" class="buttonRevisor text-decoration-none">{{__('ui.Revisore')}}</a>
+                <a href="{{route('become.revisor')}}" class="buttonCustomPrimary text-decoration-none">{{__('ui.Revisore')}}</a>
               </h6>
             </div>
+            @elseif(Auth::check() && Auth::user()->is_revisor)
+            <div class="col-md-2">
+              <h6 class="text-uppercase font-weight-bold">
+                <a href="{{route('revisor.index')}}" class="buttonCustomPrimary text-decoration-none">{{__('ui.Revisor_dash')}}</a>
+              </h6>
+            </div>
+            @elseif(!Auth::check())
+            <div class="col-md-2">
+              <h6 class="text-uppercase font-weight-bold">
+                <a href="{{route('login')}}" class="buttonCustomPrimary text-decoration-none">{{__('ui.Revisore')}}</a>
+              </h6>
+            </div>
+            @endif
             <!-- Grid column -->
           </div>
           <!-- Grid row-->
         </section>
         <!-- Section: Links -->
-  
+
         <hr class="my-5" />
-  
+
         <!-- Section: Text -->
         <section class="mb-5">
           <div class="row d-flex justify-content-center">
@@ -67,7 +81,7 @@
           </div>
         </section>
         <!-- Section: Text -->
-  
+
         <!-- Section: Social -->
         <section class="text-center mb-5">
           <a href="" class="text-white me-4">
@@ -92,7 +106,7 @@
         <!-- Section: Social -->
       </div>
       <!-- Grid container -->
-  
+
       <!-- Copyright -->
       <div class="text-center p-3 footerMorph-inner-down">
         © 2024 Copyright:
