@@ -49,7 +49,7 @@
                                 <div class="carousel-inner">
                                     @for ($i = 0; $i < 6; $i++)
                                         <div class="carousel-item {{ $i == 0 ? 'active' : '' }}">
-                                            <img src="https://picsum.photos/500" class="d-block w-100 rounded-4"
+                                            <img src="https://picsum.photos/400" class="d-block w-100 rounded-4"
                                                 alt="Immagine segnaposto">
                                         </div>
                                     @endfor

@@ -1,5 +1,5 @@
   <div class="card mx-auto shadow text-center mb-3 cardMorph-inner">
-    <img src="{{$article->images->isNotEmpty() ? $article->images->first()->getUrl(400, 400) : 'https://picsum.photos/200'}}"
+    <img src="{{$article->images->isNotEmpty() ? $article->images->first()->getUrl(400, 400) : 'https://picsum.photos/400'}}"
       class="card-img-top rounded-4 px-2 py-2" alt="Cover dell'articolo {{$article->title}}">
     <div class="card-body"><h3>{{Str::limit($article->title, 25)}}</h3>
         <h5 class="card-subtitle text-body-secondary">{{__('ui.Prezzo')}}: {{$article->price}} €</h5>
