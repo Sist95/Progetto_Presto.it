@@ -62,7 +62,7 @@ class RemoveFaces implements ShouldQueue
             paddingY:$bounds[0][1],
             width:$w,
             height:$h,
-            fit:Fit::Stretch
+            fit: Fit::Stretch
         );
 
         $image->save($srcPath);
