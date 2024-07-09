@@ -3,6 +3,7 @@
 namespace App\Jobs;
 
 use Spatie\Image\Image;
+use Spatie\Image\Enums\Unit;
 use Illuminate\Bus\Queueable;
 use Spatie\Image\Enums\CropPosition;
 use Illuminate\Queue\SerializesModels;
