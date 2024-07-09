@@ -53,9 +53,9 @@
                                     {{-- <td>{{ Str::limit($article->description, 25) }}</td> --}}
                                     <td >
                                         @if($article->is_accepted)
-                                            <span><i class="bi bi-check-circle"></i></span>
+                                            <span><i class="bi bi-check-circle text-success"></i></span>
                                         @else
-                                            <span><i class="bi bi-x-circle"></i></span>
+                                            <span><i class="bi bi-x-circle xClass"></i></span>
                                         @endif
                                     </td>
                                     <td class="d-flex justify-content-center">
