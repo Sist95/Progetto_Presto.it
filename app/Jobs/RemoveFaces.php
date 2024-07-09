@@ -36,10 +36,11 @@ class RemoveFaces implements ShouldQueue
             return;
         }
 
-        $srcPath = storage_path('app/public' . $i->path);
+        $srcPath = storage_path('app/public/' . $i->path);
         $image = file_get_contents($srcPath);
 
         putenv('GOOGLE_APPLICATION_CREDENTIALS=' . base_path('google_credential.json'));
+
         $imageAnnotator = new ImageAnnotatorClient();
         $response = $imageAnnotator->faceDetection($image);
         $faces = $response->getFaceAnnotations();
@@ -58,10 +59,10 @@ class RemoveFaces implements ShouldQueue
         $image->watermark(
             base_path('resources/img/smile.png'),
             AlignPosition::TopLeft,
-            paddingX:$bounds[0][0],
-            paddingY:$bounds[0][1],
-            width:$w,
-            height:$h,
+            paddingX: $bounds[0][0],
+            paddingY: $bounds[0][1],
+            width: $w,
+            height: $h,
             fit: Fit::Stretch
         );
 
