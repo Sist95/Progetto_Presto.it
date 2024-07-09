@@ -1,5 +1,4 @@
 <x-layout>
-
     <div class="row justify-content-center align-items-center text-center">
         @if (session()->has('message_accepted'))
             <div class="alert alert-success text-center shadow rounded w-50" role="alert">
@@ -31,6 +30,52 @@
                                         <img src="{{ $image->getUrl(400, 400) }}"
                                             class="img-fluid rounded shadow d-block w-100 rounded-4"
                                             alt="immagine {{ $key + 1 }} dell'articolo {{ $article_to_check->title }}">
+                                        <!-- Visualizzazione Labels e Ratings sotto l'immagine -->
+                                        <div class="ps-3">
+                                            <div class="card-body">
+                                                <h5>Labels</h5>
+                                                @if ($image->labels)
+                                                    @foreach ($image->labels as $label)
+                                                        #{{ $label }}
+                                                    @endforeach
+                                                @else
+                                                    <p class="fst-italic">No labels</p>
+                                                @endif
+                                            </div>
+                                            <div class="card-body">
+                                                <h5>Ratings</h5>
+                                                <div class="row justify-content-center">
+                                                    <div class="col-2">
+                                                        <div class="text-center mx-auto {{ $image->adult }}"></div>
+                                                    </div>
+                                                    <div class="col-10">Adult</div>
+                                                </div>
+                                                <div class="row justify-content-center">
+                                                    <div class="col-2">
+                                                        <div class="text-center mx-auto {{ $image->violence }}"></div>
+                                                    </div>
+                                                    <div class="col-10">Violence</div>
+                                                </div>
+                                                <div class="row justify-content-center">
+                                                    <div class="col-2">
+                                                        <div class="text-center mx-auto {{ $image->spoof }}"></div>
+                                                    </div>
+                                                    <div class="col-10">Spoof</div>
+                                                </div>
+                                                <div class="row justify-content-center">
+                                                    <div class="col-2">
+                                                        <div class="text-center mx-auto {{ $image->racy }}"></div>
+                                                    </div>
+                                                    <div class="col-10">Racy</div>
+                                                </div>
+                                                <div class="row justify-content-center">
+                                                    <div class="col-2">
+                                                        <div class="text-center mx-auto {{ $image->medical }}"></div>
+                                                    </div>
+                                                    <div class="col-10">Medical</div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 @endforeach
                             </div>
@@ -44,27 +89,28 @@
                                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                 <span class="visually-hidden">Next</span>
                             </button>
-                        @else
-                            <div id="carouselExample" class="carousel slide carousel-custom ms-2">
-                                <div class="carousel-inner">
-                                    @for ($i = 0; $i < 6; $i++)
-                                        <div class="carousel-item {{ $i == 0 ? 'active' : '' }}">
-                                            <img src="https://picsum.photos/400" class="d-block w-100 rounded-4"
-                                                alt="Immagine segnaposto">
-                                        </div>
-                                    @endfor
-                                </div>
-                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
-                                    data-bs-slide="prev">
-                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                    <span class="visually-hidden">Previous</span>
-                                </button>
-                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
-                                    data-bs-slide="next">
-                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                    <span class="visually-hidden">Next</span>
-                                </button>
+                        </div>
+                    @else
+                        <div id="carouselExample" class="carousel slide carousel-custom ms-2">
+                            <div class="carousel-inner">
+                                @for ($i = 0; $i < 6; $i++)
+                                    <div class="carousel-item {{ $i == 0 ? 'active' : '' }}">
+                                        <img src="https://picsum.photos/400" class="d-block w-100 rounded-4"
+                                            alt="Immagine segnaposto">
+                                    </div>
+                                @endfor
                             </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
                     @endif
                 </div>
                 <div class="col-12 mb-3 text-center d-flex flex-column align-items-center justify-content-center">
@@ -79,8 +125,7 @@
                         <form action="{{ route('accept', ['article' => $article_to_check]) }}" method="POST">
                             @csrf
                             @method('PATCH')
-                            <button
-                                class="buttonCustomSuccess py-2 px-5 mb-3 mt-2 mb-2 mx-lg-3">{{ __('ui.Accetta') }}</button>
+                            <button class="buttonCustomSuccess py-2 px-5 mb-3 mt-2 mb-2 mx-lg-3">{{ __('ui.Accetta') }}</button>
                         </form>
                         <form action="{{ route('reject', ['article' => $article_to_check]) }}" method="POST">
                             @csrf
@@ -103,3 +148,4 @@
         </div>
     @endif
 </x-layout>
+
