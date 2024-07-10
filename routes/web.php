@@ -20,6 +20,8 @@ Route::get('revisor/index', [RevisorController::class, 'index'])->middleware('is
 
 Route::get('revisor/index/{article}', [RevisorController::class, 'articleToCheck'])->middleware('isRevisor')->name('articleToCheck');
 
+Route::get('revisor/form-revisor', [RevisorController::class, 'formRevisor'])->middleware('auth')->name('formRevisor');
+
 Route::patch('/accept/{article}', [RevisorController::class, 'accept'])->name('accept');
 
 Route::patch('/reject/{article}', [RevisorController::class, 'reject'])->name('reject');

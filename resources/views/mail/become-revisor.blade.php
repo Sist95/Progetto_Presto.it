@@ -83,6 +83,7 @@
         <h2>Ecco i suoi dati: </h2>
         <div>
             <p>Nome: <span>{{ $user->name }}</span></p>
+            <p>Cognome: <span>{{ $user->surname }}</span></p>
             <p>Email: <span>{{ $user->email }}</span></p>
             <p>Clicca qui se vuoi renderl* revisore: </p>
             <a href="{{ route('make.revisor', compact('user')) }}"><button class="btn">Rendi revisore</button></a>

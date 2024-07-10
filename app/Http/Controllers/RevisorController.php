@@ -45,6 +45,21 @@ class RevisorController extends Controller
         // ->back()->with('message_rejected',"Hai rifiutato l'articolo $article->title");
 
     }
+
+    public function formRevisor() {
+        $user = Auth::user();
+    
+        if (!$user) {
+            return redirect()->route('login')->with('message_rejected', 'Devi essere autenticato per diventare un revisore.');
+        }
+    
+        if (!$user->is_revisor) {
+            return view('revisor.form-become-revisor', compact('user'));
+        } else {
+            return redirect()->back()->with('message_rejected', 'Sei già un revisore');
+        }
+    }
+
     public function becomeRevisor(){
         Mail::to('admin@presto.it')->send(new BecomeRevisor(Auth::user()));
         return redirect()->route('homepage')->with('message', __('ui.Diventa_revisore'));
