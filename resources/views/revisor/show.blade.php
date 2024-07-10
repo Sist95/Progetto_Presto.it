@@ -29,6 +29,11 @@
                 {{ session('succes') }}
             </div>
         @endif
+        @if(session('message_rejected'))
+            <span class="alert alert-danger" role="alert">
+                {{session('message_rejected')}}
+            </span>
+        @endif
         <div class="col-12">
             <h1 class="display-4 mb-4">{{__('ui.Lista_annunci')}}</h1>
         </div>

@@ -1,7 +1,14 @@
 <x-layout>
+    
     <div class="container-fluid">
         <div class="row justify-content-center align-items-center text-center">
             <div class="col-12">
+                @if(session('message_rejected'))
+                    <span class="alert alert-danger" role="alert">
+                        {{session('message_rejected')}}
+                    </span>
+                @endif
+
                 <h1 class="display-1">{{__('ui.I_nostri')}}</h1>
             </div>
         </div>

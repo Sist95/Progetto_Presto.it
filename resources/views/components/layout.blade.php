@@ -14,12 +14,9 @@
     <x-navbar/>
 
     <div class="container-fluid">
+        
         {{$slot}}
-        @if(session('message_rejected'))
-            <div class="alert alert-success" role="alert">
-                {{session('message_rejected')}}
-            </div>
-        @endif
+        
     </div>
 
     <x-footer/>

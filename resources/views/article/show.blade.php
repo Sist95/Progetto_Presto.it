@@ -2,6 +2,12 @@
 
   <div class="row justify-content-center align-items-center text-center">
       <div class="col-12">
+                @if(session('message_rejected'))
+                    <span class="alert alert-danger" role="alert">
+                        {{session('message_rejected')}}
+                    </span>
+                @endif
+
           <h1 class="display-4 mt-4">{{__('ui.Dett_articolo')}} {{ $article->title }}</h1>
       </div>
   </div>

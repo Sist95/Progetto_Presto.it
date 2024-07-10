@@ -2,6 +2,7 @@
         <section class="hero rounded-4 py-5">
             <div class="row">
             <div class="col-12 col-lg-4 d-flex align-items-center justify-content-center text-center">
+                
                 <p >{{__('ui.hello')}} </p>
 
             </div>
@@ -54,6 +55,12 @@
             </div> --}}
         </div>
         <div class="row justify-content-center align-items-center pt-5">
+            @if(session('message_rejected'))
+                <span class="alert alert-danger" role="alert">
+                    {{session('message_rejected')}}
+                </span>
+            @endif
+
         @forelse($articles as $article)
             <div class="col-12 col-md-6 col-xl-4">
                 <x-card :article="$article" />

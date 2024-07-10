@@ -5,10 +5,10 @@
                 {{ session('message_accepted') }}
             </div>
         @endif
-        @if (session()->has('message_rejected'))
-            <div class="alert text-danger text-center shadow rounded w-50" role="alert">
-                {{ session('message_rejected') }}
-            </div>
+        @if(session('message_rejected'))
+            <span class="alert alert-danger" role="alert">
+                {{session('message_rejected')}}
+            </span>
         @endif
         <div class="col-12">
             <h1 class="display-4 mt-4">{{ __('ui.Revisor_dash') }}</h1>
