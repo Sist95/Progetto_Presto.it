@@ -12,7 +12,7 @@
         </div>
         <div class="row justify-content-center align-items-center">
             <div class="col-12 col-md-6">
-                <form method="POST" action="/email/verifcation-notification">
+                <form method="POST" action="/email/verification-notification">
                     @csrf
                    
                     <div class="d-flex justify-content-center mt-3">
