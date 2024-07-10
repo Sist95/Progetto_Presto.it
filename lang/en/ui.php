@@ -64,6 +64,8 @@ return[
      "Diventa_revisore" => "Please note that you are requested to become a reviewer",
      "Area_riservata" => "Reserved area for reviewers",
      "Creazione_articolo" => "Ad created successfully",
+     "Lavora_con_noi"=> "Work with us",
+     "Lavora" => "Work with us as a reviewer",
      // MESSAGGI DI VALIDAZIONE
     "Titolo_richiesto" => "Title is required.",
 ];

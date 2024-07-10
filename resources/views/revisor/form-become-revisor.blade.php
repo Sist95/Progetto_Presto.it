@@ -2,7 +2,7 @@
     <div class="container mt-5 cardMorph cardMorph-inner">
         <div class="row justify-content-center">
             <div class="col-12 text-center">
-                <h1 class="display-4 mt-4">Lavora con noi come revisore</h1>
+                <h1 class="display-4 my-4">{{__('ui.Lavora')}}</h1>
                 @if(session('status'))
                 <div class="alert alert-success" role="alert">
                     {{session('status')}}
@@ -38,7 +38,7 @@
                         @enderror
                     </div>
                     <div class="d-flex justify-content-center mt-3">
-                        <a href="{{route('become.revisor')}}" class="buttonCustomPrimary text-decoration-none mb-3">{{__('ui.Revisore')}}</a>
+                        <a href="{{route('become.revisor')}}" class="buttonCustomPrimary text-decoration-none my-4">{{__('ui.Revisore')}}</a>
                     </div>             
                 </form>
             </div>
