@@ -7,7 +7,7 @@
     <title>{{env('APP_NAME')}}</title>
     @vite(['resources/css/app.css','resources/js/app.js'])
     <link href='http://fonts.googleapis.com/css?family=Urbanist' rel='stylesheet' type='text/css'>
-    <link rel="icon" type="image/x-icon" href="img/LogoFavicon.png">
+    <link rel="icon" type="image/x-icon" href="/img/LogoFavicon.png">
 </head>
 <body>
 
