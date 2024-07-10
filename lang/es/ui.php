@@ -65,6 +65,8 @@ return[
     "Categoria_1"=>"Electronicas",
     "Area_riservata" => "Área reservada para revisores",
     "Creazione_articolo" => "Anuncio creado exitosamente",
+    "Lavora_con_noi"=> "Trabaja con nosotros",
+    "Lavora" => "Trabaja con nosotros como revisor",
     // MESSAGGI DI VALIDAZIONE
     "Titolo_richiesto" => "Se requiere título.",
 ];

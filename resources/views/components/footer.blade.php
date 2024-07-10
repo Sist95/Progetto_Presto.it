@@ -43,7 +43,7 @@
             @if(Auth::check() && !Auth::user()->is_revisor) 
             <div class="col-md-2">
               <h6 class="text-uppercase font-weight-bold">
-                <a href="{{route('become.revisor')}}" class="buttonCustomPrimary text-decoration-none">{{__('ui.Revisore')}}</a>
+                <a href="{{route('formRevisor')}}" class="buttonCustomPrimary text-decoration-none">{{__('ui.Lavora_con_noi')}}</a>
               </h6>
             </div>
             @elseif(Auth::check() && Auth::user()->is_revisor)

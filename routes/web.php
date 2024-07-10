@@ -8,7 +8,7 @@ use App\Http\Controllers\RevisorController;
 
 Route::get('/', [PublicController::class,'homepage'])->name('homepage');
 
-Route::get('/create/article', [ArticleController::class,'create'])->name('create.article');
+Route::get('/create/article', [ArticleController::class,'create'])->middleware('verified')->name('create.article');
 
 Route::get('/article/index', [ArticleController::class,'index'])->name('article.index');
 
@@ -19,6 +19,8 @@ Route::get('/category/{category}', [ArticleController::class, 'byCategory'])->na
 Route::get('revisor/index', [RevisorController::class, 'index'])->middleware('isRevisor')->name('revisor.index');
 
 Route::get('revisor/index/{article}', [RevisorController::class, 'articleToCheck'])->middleware('isRevisor')->name('articleToCheck');
+
+Route::get('revisor/form-revisor', [RevisorController::class, 'formRevisor'])->middleware('auth')->name('formRevisor');
 
 Route::patch('/accept/{article}', [RevisorController::class, 'accept'])->name('accept');
 

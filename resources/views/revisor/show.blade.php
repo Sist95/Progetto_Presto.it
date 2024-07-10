@@ -41,7 +41,7 @@
                                 {{-- <th scope="col">ID</th> --}}
                                 <th scope="col">{{__('ui.Nome')}}</th>
                                 {{-- <th scope="col">Descrizione</th> --}}
-                                {{-- <th scope="col">Prezzo</th> --}}
+                                <th scope="col">Stato dell'annuncio</th>
                                 <th scope="col">{{__('ui.Azioni')}}</th>
                             </tr>
                         </thead>
@@ -51,7 +51,13 @@
                                     {{-- <th scope="row">{{ $article->id }}</th> --}}
                                     <td>{{Str::limit($article->title, 30)}}</td>
                                     {{-- <td>{{ Str::limit($article->description, 25) }}</td> --}}
-                                    {{-- <td >{{ $article->price }} €</td> --}}
+                                    <td >
+                                        @if($article->is_accepted)
+                                            <span><i class="bi bi-check-circle text-success"></i></span>
+                                        @else
+                                            <span><i class="bi bi-x-circle xClass"></i></span>
+                                        @endif
+                                    </td>
                                     <td class="d-flex justify-content-center">
                                         <a href="{{ route('articleToCheck', $article) }}" class="text-decoration-none"><button type="submit"
                                                 class="buttonCustomWarning me-1">{{__('ui.Revisiona')}}</button></a>

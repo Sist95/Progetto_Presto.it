@@ -63,6 +63,8 @@ return[
     "Diventa_revisore" => "Complimenti hai richiesto di diventare revisore",
     "Area_riservata" => "Area riservata ai revisori",
     "Creazione_articolo" => "Annuncio creato correttamente",
+    "Lavora_con_noi"=> "Lavora con noi",
+    "Lavora" => "Lavora con noi come revisore",
     // MESSAGGI DI VALIDAZIONE
     "Titolo_richiesto" => "Il titolo è richiesto.",
     
