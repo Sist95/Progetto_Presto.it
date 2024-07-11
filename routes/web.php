@@ -8,6 +8,8 @@ use App\Http\Controllers\RevisorController;
 
 Route::get('/', [PublicController::class,'homepage'])->name('homepage');
 
+Route::get('/about-us', [PublicController::class,'aboutUs'])->name('aboutUs');
+
 Route::get('/create/article', [ArticleController::class,'create'])->middleware('auth')->name('create.article');
 
 Route::get('/article/index', [ArticleController::class,'index'])->name('article.index');

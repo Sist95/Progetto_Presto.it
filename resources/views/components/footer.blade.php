@@ -10,7 +10,7 @@
             <!-- Grid column -->
             <div class="col-md-2">
               <h6 class="text-uppercase font-weight-bold">
-                <a href="#!" class="text-black footerLinks fw-semibold">{{__('ui.Chi_siamo')}}</a>
+                <a href="{{route('aboutUs')}}" class="text-black footerLinks fw-semibold">{{__('ui.Chi_siamo')}}</a>
               </h6>
             </div>
             <!-- Grid column -->
