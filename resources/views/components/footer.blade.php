@@ -8,35 +8,35 @@
           <!-- Grid row-->
           <div class="row text-center d-flex justify-content-center pt-5">
             <!-- Grid column -->
-            <!-- <div class="col-md-2">
+            <div class="col-md-2">
               <h6 class="text-uppercase font-weight-bold">
                 <a href="#!" class="text-black">About us</a>
               </h6>
-            </div> -->
+            </div>
             <!-- Grid column -->
 
             <!-- Grid column -->
-            <!-- <div class="col-md-2">
+            <div class="col-md-2">
               <h6 class="text-uppercase font-weight-bold">
                 <a href="#!" class="text-black">Products</a>
               </h6>
-            </div> -->
+            </div>
             <!-- Grid column -->
 
             <!-- Grid column -->
-            <!-- <div class="col-md-2">
+            <div class="col-md-2">
               <h6 class="text-uppercase font-weight-bold">
                 <a href="#!" class="text-black">Awards</a>
               </h6>
-            </div> -->
+            </div>
             <!-- Grid column -->
 
             <!-- Grid column -->
-            <!-- <div class="col-md-2">
+            <div class="col-md-2">
               <h6 class="text-uppercase font-weight-bold">
                 <a href="#!" class="text-black">Help</a>
               </h6>
-            </div> -->
+            </div>
             <!-- Grid column -->
 
             <!-- Grid column -->
@@ -84,23 +84,20 @@
 
         <!-- Section: Social -->
         <section class="text-center mb-5">
-          <a href="" class="text-white me-4">
-            <i class="fab fa-facebook-f"></i>
+          <a href="" class="me-4">
+            <i class="bi bi-facebook"></i>
           </a>
-          <a href="" class="text-white me-4">
-            <i class="fab fa-twitter"></i>
+          <a href="" class="me-4">
+            <i class="bi bi-twitter-x"></i>
           </a>
-          <a href="" class="text-white me-4">
-            <i class="fab fa-google"></i>
+          <a href="" class="me-4">
+            <i class="bi bi-instagram"></i>
           </a>
-          <a href="" class="text-white me-4">
-            <i class="fab fa-instagram"></i>
+          <a href="" class="me-4">
+            <i class="bi bi-linkedin"></i>
           </a>
-          <a href="" class="text-white me-4">
-            <i class="fab fa-linkedin"></i>
-          </a>
-          <a href="" class="text-white me-4">
-            <i class="fab fa-github"></i>
+          <a href="" class="me-4">
+            <i class="bi bi-github"></i>
           </a>
         </section>
         <!-- Section: Social -->
@@ -109,7 +106,7 @@
 
       <!-- Copyright -->
       <div class="text-center p-3 footerMorph-inner-down">
-        © 2024 Copyright:
+        © 2024 Copyright: Presto.it - P.IVA 0101010101
         <a class="text-black" href=""></a>
       </div>
       <!-- Copyright -->
