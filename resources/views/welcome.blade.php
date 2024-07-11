@@ -2,7 +2,7 @@
         <section class="hero rounded-4 py-5">
             <div class="row">
             <div class="col-12 col-lg-4 d-flex align-items-center justify-content-center text-center">
-                
+
                 <p >{{__('ui.hello')}} </p>
 
             </div>
@@ -35,7 +35,7 @@
     <div class="container-fluid text-center">
         <div class="row justify-content-center align-items-center">
             @if(session()->has('message'))
-             <div class="alert alert-success text-center shadow rounded w-50" role="alert">
+             <div class="alert alert-success text-center shadow rounded w-50 mt-5" role="alert">
                 {{session('message')}}
              </div>
             @endif

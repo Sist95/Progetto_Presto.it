@@ -6,7 +6,7 @@
             </div>
         @endif
         @if(session('message_rejected'))
-            <span class="alert alert-danger" role="alert">
+            <span class="alert alert-danger w-50" role="alert">
                 {{session('message_rejected')}}
             </span>
         @endif

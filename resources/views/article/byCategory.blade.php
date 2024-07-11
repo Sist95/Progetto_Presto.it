@@ -1,7 +1,7 @@
 <x-layout>
 
     <div class="container-fluid">
-        <div class="row py-5 justify-content-center align-items-center text-center">
+        <div class="row justify-content-center align-items-center text-center">
             <div class="col-12 pt-5 ">
                 <h1 class="diplay-2">{{__('ui.Annunci_categoria')}}<span class="fw-bold">{{$category->name}}</span></h1>
             </div>
