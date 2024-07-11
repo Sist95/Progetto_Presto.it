@@ -68,6 +68,12 @@ return[
     "Lavora_con_noi"=> "Trabaja con nosotros",
     "Lavora" => "Trabaja con nosotros como revisor",
     "Chi_siamo" => "Sobre nosotros",
+    "Segui_social" => "Síguenos en las redes sociales",
+    "P_iva" => "NIF",
+    "Footer_paragrafo" => "¡Bienvenido a nuestro sitio de anuncios! Aquí puede encontrar y publicar ofertas de casas, automóviles y mucho más.
+                        Nuestro objetivo es conectar personas y oportunidades de forma fácil y segura.
+                        Gracias por elegirnos.
+                        ¡Feliz navegación!",
     // MESSAGGI DI VALIDAZIONE
     "Titolo_richiesto" => "Se requiere título.",
 ];

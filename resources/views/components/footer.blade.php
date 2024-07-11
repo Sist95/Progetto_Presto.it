@@ -72,14 +72,11 @@
           <div class="row d-flex justify-content-center">
             <div class="col-lg-8">
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
-                distinctio earum repellat quaerat voluptatibus placeat nam,
-                commodi optio pariatur est quia magnam eum harum corrupti
-                dicta, aliquam sequi voluptate quas.
+                {{__('ui.Footer_paragrafo')}}
               </p>
             </div>
             <h5 class="fw-semibold">
-              Seguici sui social
+              {{__('ui.Segui_social')}}
             </h5>
           </div>
         </section>
@@ -87,19 +84,19 @@
 
         <!-- Section: Social -->
         <section class="text-center mb-4">
-          <a href="https://www.facebook.com/" target=" _blank" class="me-4 text-decoration-none text-black">
+          <a href="https://www.facebook.com/" target=" _blank" class="me-4 text-decoration-none text-black fs-4">
             <i class="bi bi-facebook"></i>
           </a>
-          <a href="https://x.com/" target=" _blank" class="me-4 text-decoration-none text-black">
+          <a href="https://x.com/" target=" _blank" class="me-4 text-decoration-none text-black fs-4">
             <i class="bi bi-twitter-x"></i>
           </a>
-          <a href="https://www.instagram.com/" target=" _blank" class="me-4 text-decoration-none text-black">
+          <a href="https://www.instagram.com/" target=" _blank" class="me-4 text-decoration-none text-black fs-4">
             <i class="bi bi-instagram"></i>
           </a>
-          <a href="https://www.linkedin.com/" target=" _blank" class="me-4 text-decoration-none text-black">
+          <a href="https://www.linkedin.com/" target=" _blank" class="me-4 text-decoration-none text-black fs-4">
             <i class="bi bi-linkedin"></i>
           </a>
-          <a href="https://github.com/" target=" _blank" class="me-4 text-decoration-none text-black">
+          <a href="https://github.com/" target=" _blank" class="me-4 text-decoration-none text-black fs-4">
             <i class="bi bi-github"></i>
           </a>
         </section>
@@ -108,9 +105,8 @@
       <!-- Grid container -->
 
       <!-- Copyright -->
-      <div class="text-center p-3 footerMorph-inner-down">
-        © 2024 Copyright: Presto.it - P.IVA 0101010101
-        <a class="text-black" href=""></a>
+      <div class="text-center p-3 footerMorph-inner-down fw-semibold">
+        © 2024 Copyright: Presto.it - {{__('ui.P_iva')}} 0101010101
       </div>
       <!-- Copyright -->
     </footer>

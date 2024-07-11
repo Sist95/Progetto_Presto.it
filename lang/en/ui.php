@@ -67,6 +67,12 @@ return[
      "Lavora_con_noi"=> "Work with us",
      "Lavora" => "Work with us as a reviewer",
      "Chi_siamo" => "About us",
+     "Segui_social" => "Follow us on social media",
+     "P_iva" => "VAT N.",
+     "Footer_paragrafo" => "Welcome to our ads site! Here you can find and post offers for houses, cars and much more.
+                            Our goal is to connect people and opportunities in a simple and safe way.
+                            Thank you for choosing us.
+                            Happy browsing!",
      // MESSAGGI DI VALIDAZIONE
     "Titolo_richiesto" => "Title is required.",
 ];

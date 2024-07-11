@@ -66,6 +66,12 @@ return[
     "Lavora_con_noi"=> "Lavora con noi",
     "Lavora" => "Lavora con noi come revisore",
     "Chi_siamo" => "Chi siamo",
+    "Segui_social" => "Seguici sui social",
+    "P_iva" => "P.IVA",
+    "Footer_paragrafo" => "Benvenuto sul nostro sito di annunci! Qui puoi trovare e pubblicare offerte di case, auto e molto altro. 
+                Il nostro obiettivo è connettere persone e opportunità in modo semplice e sicuro. 
+                Grazie per averci scelto. 
+                Buona navigazione!",
     // MESSAGGI DI VALIDAZIONE
     "Titolo_richiesto" => "Il titolo è richiesto.",
     
