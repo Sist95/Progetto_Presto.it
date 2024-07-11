@@ -73,6 +73,19 @@ return[
                             Our goal is to connect people and opportunities in a simple and safe way.
                             Thank you for choosing us.
                             Happy browsing!",
-     // MESSAGGI DI VALIDAZIONE
+    "Benvenuto_chi_siamo" => "Welcome to Presto.it, the portal where opportunities and people meet quickly and easily.",
+    "Missione_chi_siamo" => "Our mission",
+    "Missione_paragrafo" => "Our mission is to facilitate the process of listing goods and services, 
+                            creating a safe and reliable environment for all our users. Whether you are looking for a house, 
+                            a car or a good deal, Presto.it is the perfect place for you.", 
+    "Impegno_chi_siamo" => "Our commitment",
+    "Impegno_paragrafo" => "We are committed to providing excellent service and a smooth and intuitive user experience. 
+                            Our team is constantly working to improve the platform and 
+                            ensure you have the best experience possible.",
+    "Unisciti_chi_siamo" => "Join us",
+    "Unisciti_paragrafo" => "Become part of our community and discover the endless opportunities that Presto.it has to offer. 
+                            Post your ads, find what you are looking for and connect with thousands of other users.",
+
+    // MESSAGGI DI VALIDAZIONE
     "Titolo_richiesto" => "Title is required.",
 ];

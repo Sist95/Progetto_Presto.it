@@ -74,6 +74,21 @@ return[
                         Nuestro objetivo es conectar personas y oportunidades de forma fácil y segura.
                         Gracias por elegirnos.
                         ¡Feliz navegación!",
+    "Benvenuto_chi_siamo" => "Bienvenido a Presto.it, el portal donde las oportunidades y las personas se encuentran de forma rápida y sencilla.",
+    "Missione_chi_siamo" => "Nuestra misión",
+    "Missione_paragrafo" => "Nuestra misión es facilitar el proceso de publicación de bienes y servicios, 
+                        creando un ambiente seguro y confiable para todos nuestros usuarios. 
+                        Ya sea que esté buscando una casa, un automóvil o un buen negocio, Presto.it es el lugar 
+                        perfecto para usted.",
+    "Impegno_chi_siamo" => "Nuestro compromiso",
+    "Impegno_paragrafo" => "Estamos comprometidos a brindar un servicio excelente y una experiencia de usuario fluida e intuitiva. 
+                            Nuestro equipo trabaja constantemente para mejorar la plataforma y 
+                            garantizarle la mejor experiencia posible.",
+    "Unisciti_chi_siamo" => "Únete a nosotros",
+    "Unisciti_paragrafo" => "Sea parte de nuestra comunidad y descubra las infinitas oportunidades que Presto.it 
+                            tiene para ofrecer. Publique sus anuncios, encuentre lo que busca y conéctese con miles 
+                            de usuarios más.",
+                        
     // MESSAGGI DI VALIDAZIONE
     "Titolo_richiesto" => "Se requiere título.",
 ];
