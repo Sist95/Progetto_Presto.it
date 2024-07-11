@@ -38,7 +38,7 @@ return[
     "No_ricerca"=> "Nessun annuncio corrisponde alla tua ricerca.",
     "Pubblica_articolo"=> "Pubblica un annuncio",
     "Crea" => "Crea",
-    "Revisor_dash" => "Revisor Dashboard",
+    "Revisor_dash" => "Dashboard",
     "Articoli_revi" => "Annunci da revisionare",
     "Nessun_articolo" => "Nessun annuncio da revisionare",
     "Homepage"=>"Torna alla homepage",
@@ -65,6 +65,7 @@ return[
     "Creazione_articolo" => "Annuncio creato correttamente",
     "Lavora_con_noi"=> "Lavora con noi",
     "Lavora" => "Lavora con noi come revisore",
+    "Chi_siamo" => "Chi siamo",
     // MESSAGGI DI VALIDAZIONE
     "Titolo_richiesto" => "Il titolo è richiesto.",
     

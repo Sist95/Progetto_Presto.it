@@ -39,7 +39,7 @@ return[
      "No_ricerca"=> "No ads match your search.",
      "Pubblica_articolo"=> "Publish an article",
      "Crea" => "Create",
-     "Revisor_dash" => "Auditor dashboard",
+     "Revisor_dash" => "Dashboard",
      "Articoli_revi" => "Items to review",
      "Nessun_articolo" => "No items to review",
      "Homepage"=>"Back to Homepage",
@@ -66,6 +66,7 @@ return[
      "Creazione_articolo" => "Ad created successfully",
      "Lavora_con_noi"=> "Work with us",
      "Lavora" => "Work with us as a reviewer",
+     "Chi_siamo" => "About us",
      // MESSAGGI DI VALIDAZIONE
     "Titolo_richiesto" => "Title is required.",
 ];

@@ -39,7 +39,7 @@ return[
     "No_ricerca"=> "Ningún anuncio coincide con su búsqueda.",
     "Pubblica_articolo"=> "Publicar un artículo",
     "Crea" => "Crear",
-    "Revisor_dash" => "Panel de control del auditor",
+    "Revisor_dash" => "Panel de control",
     "Articoli_revi" => "Artículos para revisar",
     "Nessun_articolo" => "No hay elementos para revisar",
     "Homepage"=>"Volver a la página de inicio",
@@ -67,6 +67,7 @@ return[
     "Creazione_articolo" => "Anuncio creado exitosamente",
     "Lavora_con_noi"=> "Trabaja con nosotros",
     "Lavora" => "Trabaja con nosotros como revisor",
+    "Chi_siamo" => "Sobre nosotros",
     // MESSAGGI DI VALIDAZIONE
     "Titolo_richiesto" => "Se requiere título.",
 ];
