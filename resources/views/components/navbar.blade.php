@@ -77,9 +77,9 @@
             </ul>
     </div>
           <div class="d-flex position-absolute bottom-2 end-0">
-            <form class="d-flex me-4" role="search" action="{{route('article.search')}}" method="GET">
-              <input class="form-control buttonSearch me-1" type="search" name="query" placeholder="{{__('ui.Cerca')}}" aria-label="Search" >
-              <button class="buttonCustomWarning ms-1 me-5" type="submit"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-search text-dark" viewBox="0 0 16 16">
+            <form class="d-flex me-3" role="search" action="{{route('article.search')}}" method="GET">
+              <input class="form-control buttonSearch" type="search" name="query" placeholder="{{__('ui.Cerca')}}" aria-label="Search" >
+              <button class="buttonCustomWarning ms-1" type="submit"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-search text-dark" viewBox="0 0 16 16">
                 <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
               </svg></button>
             </form>
