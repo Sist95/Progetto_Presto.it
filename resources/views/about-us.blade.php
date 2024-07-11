@@ -18,11 +18,19 @@
         </div>
         <div class="row justify-content-center mt-5">
             <div class="col-12 text-center">
+                @if(Auth::check() && !Auth::user())
                 <h2 class="h3 fw-bold">{{__('ui.Unisciti_chi_siamo')}}</h2>
                 <p class="lead mt-3">{{__('ui.Unisciti_paragrafo')}}</p>
                 <div class="d-flex justify-content-center align-items-center">
                 <a href="{{route('register')}}" class="buttonCustomPrimary my-4 text-decoration-none">{{__('ui.Registrati')}}</a>
                 </div>
+                @elseif(Auth::check() && Auth::user())
+                <h2 class="h3 fw-bold">{{__('ui.Team_chi_siamo')}}</h2>
+                <p class="lead mt-3">{{__('ui.Team_paragrafo')}}</p>
+                <div class="d-flex justify-content-center align-items-center">
+                <a href="{{route('create.article')}}" class="buttonCustomPrimary my-4 text-decoration-none">{{__('ui.Inserisci annuncio')}}</a>
+                </div>
+                @endif
             </div>
         </div>
     </div>

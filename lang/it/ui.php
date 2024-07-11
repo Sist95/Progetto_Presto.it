@@ -84,6 +84,9 @@ return[
     "Unisciti_chi_siamo" => "Unisciti a noi",
     "Unisciti_paragrafo" => "Diventa parte della nostra comunità e scopri le infinite opportunità che Presto.it ha da offrire. 
                 Pubblica i tuoi annunci, trova ciò che cerchi e connettiti con migliaia di altri utenti.",
+    "Team_chi_siamo" => "Sei già parte della nostra community",
+    "Team_paragrafo" => "Vogliamo esprimere il nostro sincero ringraziamento per aver scelto di unirti alla community di Presto.it. 
+                        Per noi rappresenta un grande valore e siamo entusiasti di averti con noi.",
 
     // MESSAGGI DI VALIDAZIONE
     "Titolo_richiesto" => "Il titolo è richiesto.",

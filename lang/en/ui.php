@@ -85,6 +85,9 @@ return[
     "Unisciti_chi_siamo" => "Join us",
     "Unisciti_paragrafo" => "Become part of our community and discover the endless opportunities that Presto.it has to offer. 
                             Post your ads, find what you are looking for and connect with thousands of other users.",
+    "Team_chi_siamo" => "You are already part of our community",
+    "Team_paragrafo" => "We want to express our sincere thanks for choosing to join the Presto.it community.
+                        It represents a great value for us and we are thrilled to have you with us.",
 
     // MESSAGGI DI VALIDAZIONE
     "Titolo_richiesto" => "Title is required.",
