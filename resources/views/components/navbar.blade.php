@@ -1,4 +1,4 @@
-<nav class="navbar fixed-top navbar-expand-lg primary-bg navMorph-inner">
+<nav class="navbar fixed-top navbar-expand-lg primary-bg mb-3 navMorph-inner">
   <div class="container-fluid m-0">
     <a class="navbar-brand" href="{{route('homepage')}}">
       <img src="\img\LogoPresto.png" alt="Logo" width="60vh" height="50vh">

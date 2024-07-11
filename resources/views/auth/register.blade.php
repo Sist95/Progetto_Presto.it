@@ -11,7 +11,7 @@
             </div>
         </div>
         <div class="row justify-content-center align-items-center">
-            <div class="col-12 col-md-6">
+            <div class="col-8">
                 <form method="POST" action="/register">
                     @csrf
                     <div class="mb-3">
@@ -52,7 +52,7 @@
                     </div>
                     <div class="d-flex justify-content-center mt-3">
                         <button type="submit" class="buttonCustomPrimary mb-4">{{__('ui.Registrati')}}</button>
-                    </div>             
+                    </div>
                 </form>
             </div>
         </div>
