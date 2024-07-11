@@ -47,7 +47,7 @@
 }
 
 body {
-    margin-top: 10vh;
+    margin-top: 16vh;
     background-image: url("/public/img/sfondo_presto_modified.png");
     background-size: cover;
     /* background-repeat: no-repeat; */
