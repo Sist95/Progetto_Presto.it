@@ -66,16 +66,7 @@
           </ul>
           @endauth
           </li>
-
-          <div class="d-flex position-absolute bottom-2 end-0">
-            <form class="d-flex me-4" role="search" action="{{route('article.search')}}" method="GET">
-              <input class="form-control buttonSearch me-1" type="search" name="query" placeholder="{{__('ui.Cerca')}}" aria-label="Search" >
-              <button class="buttonCustomWarning ms-1 me-5" type="submit"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-search text-dark" viewBox="0 0 16 16">
-                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
-              </svg></button>
-            </form>
-        </ul>
-          <div class="dropdown">
+          <div class="dropdown mt-1">
             <button type="button" class="btn language_button dropdown-toggle my-lg-0" data-bs-toggle="dropdown">
                 <i class="bi bi-globe-americas"></i>
             </button>
@@ -84,10 +75,16 @@
               <li><a class="dropdown-item fw-semibold" href="#"><x-locale lang="en"/>English</a></li>
               <li><a class="dropdown-item fw-semibold" href="#"><x-locale lang="es"/>Español</a></li>
             </ul>
-
-
-
     </div>
+          <div class="d-flex position-absolute bottom-2 end-0">
+            <form class="d-flex me-4" role="search" action="{{route('article.search')}}" method="GET">
+              <input class="form-control buttonSearch me-1" type="search" name="query" placeholder="{{__('ui.Cerca')}}" aria-label="Search" >
+              <button class="buttonCustomWarning ms-1 me-5" type="submit"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-search text-dark" viewBox="0 0 16 16">
+                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+              </svg></button>
+            </form>
+        </ul>
+      
     </div>
     </div>
 </nav>
