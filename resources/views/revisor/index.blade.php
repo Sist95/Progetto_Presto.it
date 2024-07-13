@@ -1,4 +1,8 @@
 <x-layout>
+
+<h1>Ciao a tutti</h1>
+
+
     <div class="row justify-content-center align-items-center text-center">
         @if (session()->has('message_accepted'))
             <div class="alert alert-success text-center shadow rounded w-50" role="alert">
